@@ -21,7 +21,7 @@ def main():
         sys.exit(1)
 
     # Check commits
-    log = run_cmd(["jj", "log", "-T", "description.first_line()", "--no-graph"], cwd=repo_dir).splitlines()
+    log = run_cmd(["jj", "log", "-T", "coalesce(description.first_line(), '') ++ '\n'", "--no-graph"], cwd=repo_dir).splitlines()
     if "WIP commit" not in log:
         print("Missing WIP commit")
         sys.exit(1)
