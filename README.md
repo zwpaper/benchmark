@@ -15,12 +15,12 @@ You can view the evaluation reports at [tabbyml.github.io/jj-benchmark](https://
 This benchmark is evaluated with the [Harbor framework](https://github.com/harbor-framework/harbor)
 and the [Pochi agent](https://github.com/TabbyML/pochi).
 
-Here is an example of running the evaluation with the Pochi agent and Daytona:
+Here is an example of running the evaluation with a built-in agent (e.g., Codex) and Daytona:
 
 ```bash
 harbor run \
-    --agent-import-path agents.pochi:Pochi \
-    --model "google/gemini-3-flash" \
+    --agent codex \
+    --model "gpt-5.2-codex" \
     --env daytona \
     --path ./tasks \
     --n-attempts 1 \
@@ -34,8 +34,8 @@ harbor run \
 ### Evaluation Details
 
 Before starting the evaluation, you should set the necessary environment variables.
-For example, when using Pochi, you should export `POCHI_API_KEY` before running Harbor,
-and `OPENAI_API_KEY` for OpenAI, etc.
+For example, when using Codex, you should export `OPENAI_API_KEY` before running Harbor.
+If using Pochi, you should export `POCHI_API_KEY`, etc.
 
 Evaluation can be run locally with Docker, [Daytona.io](https://www.daytona.io/),
 or other cloud services by using the `-e` or `--env` arguments with values like `docker` or `daytona` (`docker` is the default).
@@ -44,8 +44,8 @@ When running with Daytona, please note that Daytona blocks some network access f
 If you meet any network issues, please refer to
 [Daytona network limits](https://www.daytona.io/docs/en/network-limits/).
 
-People are welcome to contribute with the Pochi agent or other agents.
-Running with a built-in agent can use the `--agent` or `-a` arguments (e.g., supporting `claude-code`, `codex`, `gemini-cli`, etc.).
+People are welcome to contribute with built-in agents (e.g., supporting `claude-code`, `codex`, `gemini-cli`, etc.)
+using the `--agent` or `-a` arguments, or other custom agents like the [Pochi agent](https://github.com/TabbyML/pochi).
 
 For running the Pochi agent specifically,
 you should use `--agent-import-path` to point to the path of the Pochi agent,
