@@ -1,5 +1,0 @@
-{
-  "name": "List, filter, and paginate running and paused sandboxes using the E2B SDK",
-  "task_description": "The agent must write a Python script that creates multiple sandboxes with different metadata, then uses Sandbox.list() with a query to filter them, and properly paginates through the results to collect their IDs before cleaning them up.",
-  "truth": "The agent should correctly use Sandbox.list(query=...), check paginator.has_next, and call paginator.next_items() to retrieve the filtered sandboxes, then save the IDs to a file."
-}
