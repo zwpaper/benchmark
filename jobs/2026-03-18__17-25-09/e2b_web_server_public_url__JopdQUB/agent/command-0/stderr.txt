@@ -1,0 +1,112 @@
+- Initializing MCP connections...
+You
+We need to spin up a web server inside an E2B sandbox and expose it via a public URL. Write a Python script `solve.py` that does the following: 1. Creates a new E2B sandbox using the `e2b` SDK. 2. Writes an `index.html` file in `/home/user/` containing the exact text `Hello from E2B Sandbox!`. 3. Starts a Python HTTP server in the background inside the sandbox on port 8000, serving the `/home/user/` directory. 4. Retrieves the public URL for port 8000 using the SDK. 5. Saves the sandbox ID and the full public URL (e.g. `https://<host>`) as a JSON object in `/home/user/e2b_task_info.json` on the **local** machine (not inside the sandbox). The JSON object should have the keys `sandbox_id` and `url`. 6. Ensure the sandbox is kept alive for at least 5 minutes so we can verify the URL. Your script must be a standalone Python file `solve.py`.   
+
+Pochi
+💭 Thinking for 712 characters   
+📋 Updating todo list (3 items) ✔ 
+💭 Thinking for 264 characters   
+💫 Executing pip show e2b ✔ 
+💭 Thinking for 543 characters   
+💫 Executing env | grep E2B_API_KEY ✔ 
+💭 Thinking for 1382 characters   
+💫 Executing python3 -c "from e2b import Sandbox; print(help(Sandbox))" | head -n 50 ✔ 
+💭 Thinking for 293 characters   
+💫 Executing python3 -c "from e2b import Sandbox; print(dir(Sandbox))" | grep host ✔ 
+💫 Executing python3 -c "from e2b import Sandbox; print(help(Sandbox.get_host))" ✔ 
+💭 Thinking for 293 characters   
+💭 Thinking for 752 characters   
+📋 Updating todo list (3 items) ✔ 
+💭 Thinking for 839 characters   
+✏️  Writing solve.py ✔ 
+💭 Thinking for 666 characters   
+💫 Executing python3 -c "from e2b import Sandbox; sbx = Sandbox.create(); print(sbx.get_host(8000)); sbx.kill()" ✔ 
+💭 Thinking for 629 characters   
+💫 Executing python3 -c "from e2b import Sandbox; print(help(Sandbox.files))" | head -n 30 ✔ 
+💭 Thinking for 265 characters   
+💫 Executing python3 -c "from e2b import Sandbox; sbx = Sandbox.create(); print(dir(sbx.files)); sbx.kill()" ✔ 
+💫 Executing python3 -c "from e2b import Sandbox; sbx = Sandbox.create(); print(sbx.commands.run('ls -d /home/user/').stdout); sbx.kill()" ✔ 
+💭 Thinking for 631 characters   
+💫 Executing python3 -c "from e2b import Sandbox; sbx = Sandbox.create(); print(sbx.commands.run('python3 --version').stdout); sbx.kill()" ✔ 
+💭 Thinking for 687 characters   
+💫 Executing python3 -c "from e2b import Sandbox; print(help(Sandbox.set_timeout))" ✔ 
+💭 Thinking for 899 characters   
+🔧 Applying diff to solve.py ✔ 
+💭 Thinking for 553 characters   
+💫 Executing python3 -c "import json; from e2b import Sandbox; sbx = Sandbox.create(); sbx.files.write('/home/user/index.html', 'Hello from E2B Sandbox!'); sbx.commands.run('python3 -m http.server 8000', background=True, cwd='/home/user'); url = f'https://{sbx.get_host(8000)}'; info = {'sandbox_id': sbx.sandbox_id, 'url': url}; open('/home/user/e2b_task_info.json', 'w').write(json.dumps(info, indent=2)); print('OK'); sbx.kill()" ✔ 
+💭 Thinking for 184 characters   
+💫 Executing cat /home/user/e2b_task_info.json ✔ 
+💭 Thinking for 1342 characters   
+💫 Executing python3 -c "import json; from e2b import Sandbox; import time; import httpx; sbx = Sandbox.create(); sbx.files.write('/home/user/index.html', 'Hello from E2B Sandbox!'); sbx.commands.run('python3 -m http.server 8000', background=True, cwd='/home/user'); url = f'https://{sbx.get_host(8000)}'; time.sleep(2); resp = httpx.get(url); print(resp.text); sbx.kill()" ✔ 
+💭 Thinking for 233 characters   
+📖 Reading solve.py ✔ 
+💭 Thinking for 877 characters   
+📋 Updating todo list (3 items) ✔ 
+💭 Thinking for 539 characters   
+💫 Executing rm /home/user/e2b_task_info.json ✔ 
+💭 Thinking for 1282 characters   
+🎉 Task Completed
+I have created the `solve.py` script as requested. The script uses the E2B SDK to create a sandbox, write an `index.html` file, start a Python HTTP server on port 8000, and save the sandbox ID and public URL to a local JSON file. It also ensures the sandbox is kept alive for at least 5 minutes.
+
+### `solve.py`
+```python
+import json
+import time
+from e2b import Sandbox
+
+def main():
+    # 1. Create a new E2B sandbox
+    print("Creating E2B sandbox...")
+    sandbox = Sandbox.create()
+    
+    try:
+        # 2. Write index.html in /home/user/
+        print("Writing index.html...")
+        sandbox.files.write("/home/user/index.html", "Hello from E2B Sandbox!")
+        
+        # 3. Start Python HTTP server on port 8000 in background
+        print("Starting HTTP server...")
+        # We use background=True to run it in the background
+        # We specify cwd="/home/user" to serve that directory
+        sandbox.commands.run("python3 -m http.server 8000", background=True, cwd="/home/user")
+        
+        # Ensure the sandbox doesn't timeout for at least 5 minutes
+        sandbox.set_timeout(300)
+        
+        # 4. Retrieve the public URL for port 8000
+        # get_host(8000) returns the hostname for the given port
+        hostname = sandbox.get_host(8000)
+        url = f"https://{hostname}"
+        print(f"Sandbox ID: {sandbox.sandbox_id}")
+        print(f"Public URL: {url}")
+        
+        # 5. Save sandbox ID and public URL as JSON locally
+        info = {
+            "sandbox_id": sandbox.sandbox_id,
+            "url": url
+        }
+        local_path = "/home/user/e2b_task_info.json"
+        with open(local_path, "w") as f:
+            json.dump(info, f, indent=2)
+        print(f"Saved info to {local_path}")
+        
+        # 6. Keep the sandbox alive for at least 5 minutes
+        print("Keeping sandbox alive for 5 minutes...")
+        # We use time.sleep(300) to keep the script running, 
+        # which keeps the sandbox object and connection active.
+        time.sleep(300)
+        
+    finally:
+        # The sandbox will be killed when the script ends or when killed explicitly.
+        # Since we want it to stay alive for 5 minutes, the sleep above handles it.
+        print("Done.")
+
+if __name__ == "__main__":
+    main()
+```
+
+The script expects the `E2B_API_KEY` environment variable to be set, which it is in the current environment. You can run it with:
+```bash
+python3 solve.py
+```   
+  
