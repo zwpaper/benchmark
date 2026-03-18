@@ -1,0 +1,54 @@
+[37m2026-03-18 13:52:04.495[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37mnative:1[39m[0m[0m[1m[37m	Pochi[39m[22m[0m[0m	pochi v0.6.0
+[37m2026-03-18 13:52:04.500[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37mnative:7[39m[0m[0m[1m[37m	PochiConfigManager[39m[22m[0m[0m	add workspace config: /root/.pochi/config.jsonc
+[37m2026-03-18 13:52:04.625[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m/$bunfs/pochi:503027[39m[0m[0m[1m[37m	loadAgents[39m[22m[0m[0m	Loaded 4 custom agents (4 valid, 0 invalid)
+[37m2026-03-18 13:52:04.626[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m/$bunfs/pochi:503028[39m[0m[0m[1m[37m	loadSkills[39m[22m[0m[0m	Loaded 2 skills (2 valid, 0 invalid)
+[37m2026-03-18 13:52:04.647[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m/$bunfs/pochi:439288[39m[0m[0m[1m[37m	PochiVendor[39m[22m[0m[0m	JWT is expiring or missing, fetching a new one
+[37m2026-03-18 13:52:05.871[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m/$bunfs/pochi:415701[39m[0m[0m[1m[37m	MCPHub[39m[22m[0m[0m	MCP servers configuration changed via signal:
+[37m2026-03-18 13:52:05.871[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m/$bunfs/pochi:415813[39m[0m[0m[1m[37m	MCPHub[39m[22m[0m[0m	Build MCPHub Status
+[37m2026-03-18 13:52:05.951[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m/$bunfs/pochi:502453[39m[0m[0m[1m[37m	TaskRunner[39m[22m[0m[0m	Starting TaskRunner...
+[37m2026-03-18 13:52:05.964[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m/$bunfs/pochi:454195[39m[0m[0m[1m[37m	listFiles[39m[22m[0m[0m	Listing workspace files from /root with maxItems [33m500[39m
+[37m2026-03-18 13:52:06.369[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m/$bunfs/pochi:496495[39m[0m[0m[1m[37m	generateTaskTitle[39m[22m[0m[0m	Generating task title, old: null, new: # Task: Sandbox Checkpointing
+[37m2026-03-18 13:52:18.302[39m[0m[0m	[33m[1mWARN[22m[39m[0m[0m	[37m[39m[0m[0m[1m[37m	GitStatus[39m[22m[0m[0m	readGitStatus timed out after 12000ms, returning undefined
+[37m2026-03-18 13:52:20.585[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m/$bunfs/pochi:454195[39m[0m[0m[1m[37m	listFiles[39m[22m[0m[0m	Listing workspace files from /root with maxItems [33m500[39m
+[37m2026-03-18 13:52:30.151[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m/$bunfs/pochi:496495[39m[0m[0m[1m[37m	generateTaskTitle[39m[22m[0m[0m	Generating task title, old: # Task: Sandbox Checkpointing, new: Create and snapshot an E2B sandbox environment
+[37m2026-03-18 13:52:30.950[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m/$bunfs/pochi:454195[39m[0m[0m[1m[37m	listFiles[39m[22m[0m[0m	Listing workspace files from /root with maxItems [33m500[39m
+[37m2026-03-18 13:52:32.759[39m[0m[0m	[33m[1mWARN[22m[39m[0m[0m	[37m[39m[0m[0m[1m[37m	GitStatus[39m[22m[0m[0m	readGitStatus timed out after 12000ms, returning undefined
+[37m2026-03-18 13:52:41.777[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m/$bunfs/pochi:454195[39m[0m[0m[1m[37m	listFiles[39m[22m[0m[0m	Listing workspace files from /root with maxItems [33m500[39m
+[37m2026-03-18 13:52:43.255[39m[0m[0m	[33m[1mWARN[22m[39m[0m[0m	[37m[39m[0m[0m[1m[37m	GitStatus[39m[22m[0m[0m	readGitStatus timed out after 12000ms, returning undefined
+[37m2026-03-18 13:52:50.696[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m/$bunfs/pochi:454195[39m[0m[0m[1m[37m	listFiles[39m[22m[0m[0m	Listing workspace files from /root with maxItems [33m500[39m
+[37m2026-03-18 13:52:54.079[39m[0m[0m	[33m[1mWARN[22m[39m[0m[0m	[37m[39m[0m[0m[1m[37m	GitStatus[39m[22m[0m[0m	readGitStatus timed out after 12000ms, returning undefined
+[37m2026-03-18 13:53:02.868[39m[0m[0m	[33m[1mWARN[22m[39m[0m[0m	[37m[39m[0m[0m[1m[37m	GitStatus[39m[22m[0m[0m	readGitStatus timed out after 12000ms, returning undefined
+[37m2026-03-18 13:53:06.056[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m/$bunfs/pochi:454195[39m[0m[0m[1m[37m	listFiles[39m[22m[0m[0m	Listing workspace files from /root with maxItems [33m500[39m
+[37m2026-03-18 13:53:14.014[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m/$bunfs/pochi:454195[39m[0m[0m[1m[37m	listFiles[39m[22m[0m[0m	Listing workspace files from /root with maxItems [33m500[39m
+[37m2026-03-18 13:53:18.345[39m[0m[0m	[33m[1mWARN[22m[39m[0m[0m	[37m[39m[0m[0m[1m[37m	GitStatus[39m[22m[0m[0m	readGitStatus timed out after 12000ms, returning undefined
+[37m2026-03-18 13:53:24.255[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m/$bunfs/pochi:454195[39m[0m[0m[1m[37m	listFiles[39m[22m[0m[0m	Listing workspace files from /root with maxItems [33m500[39m
+[37m2026-03-18 13:53:26.257[39m[0m[0m	[33m[1mWARN[22m[39m[0m[0m	[37m[39m[0m[0m[1m[37m	GitStatus[39m[22m[0m[0m	readGitStatus timed out after 12000ms, returning undefined
+[37m2026-03-18 13:53:33.376[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m/$bunfs/pochi:454195[39m[0m[0m[1m[37m	listFiles[39m[22m[0m[0m	Listing workspace files from /root with maxItems [33m500[39m
+[37m2026-03-18 13:53:36.495[39m[0m[0m	[33m[1mWARN[22m[39m[0m[0m	[37m[39m[0m[0m[1m[37m	GitStatus[39m[22m[0m[0m	readGitStatus timed out after 12000ms, returning undefined
+[37m2026-03-18 13:53:45.603[39m[0m[0m	[33m[1mWARN[22m[39m[0m[0m	[37m[39m[0m[0m[1m[37m	GitStatus[39m[22m[0m[0m	readGitStatus timed out after 12000ms, returning undefined
+[37m2026-03-18 13:53:50.822[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m/$bunfs/pochi:454195[39m[0m[0m[1m[37m	listFiles[39m[22m[0m[0m	Listing workspace files from /root with maxItems [33m500[39m
+[37m2026-03-18 13:54:00.113[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m/$bunfs/pochi:454195[39m[0m[0m[1m[37m	listFiles[39m[22m[0m[0m	Listing workspace files from /root with maxItems [33m500[39m
+[37m2026-03-18 13:54:03.099[39m[0m[0m	[33m[1mWARN[22m[39m[0m[0m	[37m[39m[0m[0m[1m[37m	GitStatus[39m[22m[0m[0m	readGitStatus timed out after 12000ms, returning undefined
+[37m2026-03-18 13:54:10.385[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m/$bunfs/pochi:454195[39m[0m[0m[1m[37m	listFiles[39m[22m[0m[0m	Listing workspace files from /root with maxItems [33m500[39m
+[37m2026-03-18 13:54:12.281[39m[0m[0m	[33m[1mWARN[22m[39m[0m[0m	[37m[39m[0m[0m[1m[37m	GitStatus[39m[22m[0m[0m	readGitStatus timed out after 12000ms, returning undefined
+[37m2026-03-18 13:54:22.583[39m[0m[0m	[33m[1mWARN[22m[39m[0m[0m	[37m[39m[0m[0m[1m[37m	GitStatus[39m[22m[0m[0m	readGitStatus timed out after 12000ms, returning undefined
+[37m2026-03-18 13:54:26.008[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m/$bunfs/pochi:454195[39m[0m[0m[1m[37m	listFiles[39m[22m[0m[0m	Listing workspace files from /root with maxItems [33m500[39m
+[37m2026-03-18 13:54:38.165[39m[0m[0m	[33m[1mWARN[22m[39m[0m[0m	[37m[39m[0m[0m[1m[37m	GitStatus[39m[22m[0m[0m	readGitStatus timed out after 12000ms, returning undefined
+[37m2026-03-18 13:54:43.515[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m/$bunfs/pochi:454195[39m[0m[0m[1m[37m	listFiles[39m[22m[0m[0m	Listing workspace files from /root with maxItems [33m500[39m
+[37m2026-03-18 13:54:53.658[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m/$bunfs/pochi:454195[39m[0m[0m[1m[37m	listFiles[39m[22m[0m[0m	Listing workspace files from /root with maxItems [33m500[39m
+[37m2026-03-18 13:54:55.719[39m[0m[0m	[33m[1mWARN[22m[39m[0m[0m	[37m[39m[0m[0m[1m[37m	GitStatus[39m[22m[0m[0m	readGitStatus timed out after 12000ms, returning undefined
+[37m2026-03-18 13:55:04.191[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m/$bunfs/pochi:454195[39m[0m[0m[1m[37m	listFiles[39m[22m[0m[0m	Listing workspace files from /root with maxItems [33m500[39m
+[37m2026-03-18 13:55:05.910[39m[0m[0m	[33m[1mWARN[22m[39m[0m[0m	[37m[39m[0m[0m[1m[37m	GitStatus[39m[22m[0m[0m	readGitStatus timed out after 12000ms, returning undefined
+[37m2026-03-18 13:55:15.063[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m/$bunfs/pochi:454195[39m[0m[0m[1m[37m	listFiles[39m[22m[0m[0m	Listing workspace files from /root with maxItems [33m500[39m
+[37m2026-03-18 13:55:16.372[39m[0m[0m	[33m[1mWARN[22m[39m[0m[0m	[37m[39m[0m[0m[1m[37m	GitStatus[39m[22m[0m[0m	readGitStatus timed out after 12000ms, returning undefined
+[37m2026-03-18 13:55:24.440[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m/$bunfs/pochi:454195[39m[0m[0m[1m[37m	listFiles[39m[22m[0m[0m	Listing workspace files from /root with maxItems [33m500[39m
+[37m2026-03-18 13:55:27.350[39m[0m[0m	[33m[1mWARN[22m[39m[0m[0m	[37m[39m[0m[0m[1m[37m	GitStatus[39m[22m[0m[0m	readGitStatus timed out after 12000ms, returning undefined
+[37m2026-03-18 13:55:36.656[39m[0m[0m	[33m[1mWARN[22m[39m[0m[0m	[37m[39m[0m[0m[1m[37m	GitStatus[39m[22m[0m[0m	readGitStatus timed out after 12000ms, returning undefined
+[37m2026-03-18 13:55:38.323[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m/$bunfs/pochi:454195[39m[0m[0m[1m[37m	listFiles[39m[22m[0m[0m	Listing workspace files from /root with maxItems [33m500[39m
+[37m2026-03-18 13:55:50.507[39m[0m[0m	[33m[1mWARN[22m[39m[0m[0m	[37m[39m[0m[0m[1m[37m	GitStatus[39m[22m[0m[0m	readGitStatus timed out after 12000ms, returning undefined
+[37m2026-03-18 13:55:56.970[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m/$bunfs/pochi:454195[39m[0m[0m[1m[37m	listFiles[39m[22m[0m[0m	Listing workspace files from /root with maxItems [33m500[39m
+[37m2026-03-18 13:56:05.653[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m/$bunfs/pochi:454195[39m[0m[0m[1m[37m	listFiles[39m[22m[0m[0m	Listing workspace files from /root with maxItems [33m500[39m
+[37m2026-03-18 13:56:09.177[39m[0m[0m	[33m[1mWARN[22m[39m[0m[0m	[37m[39m[0m[0m[1m[37m	GitStatus[39m[22m[0m[0m	readGitStatus timed out after 12000ms, returning undefined
+[37m2026-03-18 13:56:13.508[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m/$bunfs/pochi:454195[39m[0m[0m[1m[37m	listFiles[39m[22m[0m[0m	Listing workspace files from /root with maxItems [33m500[39m
+[37m2026-03-18 13:56:17.887[39m[0m[0m	[33m[1mWARN[22m[39m[0m[0m	[37m[39m[0m[0m[1m[37m	GitStatus[39m[22m[0m[0m	readGitStatus timed out after 12000ms, returning undefined
+[37m2026-03-18 13:56:25.663[39m[0m[0m	[33m[1mWARN[22m[39m[0m[0m	[37m[39m[0m[0m[1m[37m	GitStatus[39m[22m[0m[0m	readGitStatus timed out after 12000ms, returning undefined
