@@ -1,0 +1,41 @@
+{
+    "results": {
+        "tool": {
+            "name": "pytest",
+            "version": "8.4.1"
+        },
+        "summary": {
+            "tests": 2,
+            "passed": 1,
+            "failed": 1,
+            "skipped": 0,
+            "pending": 0,
+            "other": 0,
+            "start": 1773853900.136807,
+            "stop": 1773853900.9755137
+        },
+        "tests": [
+            {
+                "name": "test_outputs.py::test_task_info_file_exists",
+                "status": "passed",
+                "duration": 0.00030865008011460304,
+                "start": 1773853900.1435764,
+                "stop": 1773853900.1440215,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_sandbox_scan_results",
+                "status": "failed",
+                "raw_status": "call_failed",
+                "duration": 0.8202643590047956,
+                "start": 1773853900.144141,
+                "stop": 1773853900.9753718,
+                "retries": 0,
+                "file_path": "test_outputs.py",
+                "trace": "sandbox_id = 'isu7w1zt30qx74n3w4ucn'\n\n    def test_sandbox_scan_results(sandbox_id):\n        result = subprocess.run(\n            [\"e2b\", \"sandbox\", \"exec\", sandbox_id, \"cat\", \"/home/user/scan_results.txt\"],\n            capture_output=True,\n            text=True,\n            env=env,\n        )\n    \n>       assert result.returncode == 0, (\n            f\"Failed to execute command in sandbox.\\nSTDERR: {result.stderr}\"\n        )\nE       AssertionError: Failed to execute command in sandbox.\nE         STDERR: ir [NotFoundError]: Paused sandbox isu7w1zt30qx74n3w4ucn not found\nE             at Function.connectSandbox (/usr/lib/node_modules/@e2b/js-sdk/src/sandbox/sandboxApi.ts:785:13)\nE             at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\nE             at async Function.connect (/usr/lib/node_modules/@e2b/js-sdk/src/sandbox/index.ts:438:21)\nE             at async t.<anonymous> (/usr/lib/node_modules/@e2b/cli/src/commands/sandbox/exec.ts:47:25)\nE         \nE       assert 1 == 0\nE        +  where 1 = CompletedProcess(args=['e2b', 'sandbox', 'exec', 'isu7w1zt30qx74n3w4ucn', 'cat', '/home/user/scan_results.txt'], retur...ox/index.ts:438:21)\\n    at async t.<anonymous> (/usr/lib/node_modules/@e2b/cli/src/commands/sandbox/exec.ts:47:25)\\n').returncode\n\n/tests/test_outputs.py:40: AssertionError",
+                "message": "The test failed in the call phase due to an assertion error"
+            }
+        ]
+    }
+}

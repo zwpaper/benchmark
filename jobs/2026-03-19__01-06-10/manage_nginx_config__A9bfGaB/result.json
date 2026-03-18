@@ -1,0 +1,91 @@
+{
+    "id": "f5784a39-3f22-4086-9c25-4c3fcfe23181",
+    "task_name": "manage_nginx_config",
+    "trial_name": "manage_nginx_config__A9bfGaB",
+    "trial_uri": "file:///home/kw/code/work/pochi-bench/jobs/2026-03-19__01-06-10/manage_nginx_config__A9bfGaB",
+    "task_id": {
+        "path": "../e2b-benchmark/tasks/manage_nginx_config"
+    },
+    "source": "tasks",
+    "task_checksum": "d42147489a0910cdb2f985d330bd7926570aa8bc276f188ec66670df0ced4273",
+    "config": {
+        "task": {
+            "path": "../e2b-benchmark/tasks/manage_nginx_config",
+            "git_url": null,
+            "git_commit_id": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": "tasks"
+        },
+        "trial_name": "manage_nginx_config__A9bfGaB",
+        "trials_dir": "jobs/2026-03-19__01-06-10",
+        "timeout_multiplier": 1.0,
+        "agent": {
+            "name": null,
+            "import_path": "agents.pochi:Pochi",
+            "model_name": "google/gemini-3-flash",
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "kwargs": {}
+        },
+        "environment": {
+            "type": "daytona",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "suppress_override_warnings": false,
+            "kwargs": {}
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "disable": false
+        },
+        "job_id": "1841e853-b739-4c42-9603-22e846e027a2"
+    },
+    "agent_info": {
+        "name": "pochi",
+        "version": "unknown",
+        "model_info": {
+            "name": "gemini-3-flash",
+            "provider": "google"
+        }
+    },
+    "agent_result": {
+        "n_input_tokens": 0,
+        "n_cache_tokens": 0,
+        "n_output_tokens": 0,
+        "cost_usd": null,
+        "rollout_details": null,
+        "metadata": null
+    },
+    "verifier_result": {
+        "rewards": {
+            "reward": 0.0
+        }
+    },
+    "exception_info": null,
+    "started_at": "2026-03-18T17:06:10.202519Z",
+    "finished_at": "2026-03-18T17:08:07.859229Z",
+    "environment_setup": {
+        "started_at": "2026-03-18T17:06:10.203684Z",
+        "finished_at": "2026-03-18T17:06:23.549123Z"
+    },
+    "agent_setup": {
+        "started_at": "2026-03-18T17:06:23.549134Z",
+        "finished_at": "2026-03-18T17:06:35.613253Z"
+    },
+    "agent_execution": {
+        "started_at": "2026-03-18T17:06:35.613351Z",
+        "finished_at": "2026-03-18T17:07:53.646344Z"
+    },
+    "verifier": {
+        "started_at": "2026-03-18T17:07:57.176438Z",
+        "finished_at": "2026-03-18T17:08:06.750573Z"
+    }
+}
