@@ -37,6 +37,7 @@ __pycache__
 
 # local env files
 .env*.local
+.env*
 
 # vercel
 .vercel
@@ -44,7 +45,3 @@ __pycache__
 # typescript
 *.tsbuildinfo
 next-env.d.ts
-
-# local generated benchmark artifacts
-site/messages.json
-site/tasks.json
