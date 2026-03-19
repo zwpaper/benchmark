@@ -68,6 +68,29 @@
         "output": 0,
         "cache": 0
       }
+    },
+    {
+      "job_name": "2026-03-19__16-52-48",
+      "trial_name": "create_restore_snapshot__mwNBGBN",
+      "agent": "pochi",
+      "model": "openai/gpt-5.2-codex",
+      "provider": "openai",
+      "passed": true,
+      "reward": 1,
+      "error": false,
+      "latency_sec": 178.03,
+      "latency_breakdown": {
+        "env_setup": 3.901,
+        "agent_setup": 13.538,
+        "agent_exec": 139.743,
+        "verifier": 14.353
+      },
+      "tokens": {
+        "input": 0,
+        "output": 0,
+        "cache": 0
+      },
+      "trajectory_id": "9zOfKslL"
     }
   ],
   "env_vars_security_check": [
@@ -138,6 +161,29 @@
         "output": 0,
         "cache": 0
       }
+    },
+    {
+      "job_name": "2026-03-19__16-52-48",
+      "trial_name": "env_vars_security_check__vqv55pi",
+      "agent": "pochi",
+      "model": "openai/gpt-5.2-codex",
+      "provider": "openai",
+      "passed": true,
+      "reward": 1,
+      "error": false,
+      "latency_sec": 142.158,
+      "latency_breakdown": {
+        "env_setup": 3.187,
+        "agent_setup": 8.27,
+        "agent_exec": 116.142,
+        "verifier": 9.137
+      },
+      "tokens": {
+        "input": 0,
+        "output": 0,
+        "cache": 0
+      },
+      "trajectory_id": "S89lmOAD"
     }
   ],
   "manage_nginx_config": [
@@ -209,6 +255,29 @@
         "output": 0,
         "cache": 0
       }
+    },
+    {
+      "job_name": "2026-03-19__16-52-48",
+      "trial_name": "manage_nginx_config__Czmg2aj",
+      "agent": "pochi",
+      "model": "openai/gpt-5.2-codex",
+      "provider": "openai",
+      "passed": false,
+      "reward": 0,
+      "error": false,
+      "latency_sec": 353.407,
+      "latency_breakdown": {
+        "env_setup": 3.109,
+        "agent_setup": 9.574,
+        "agent_exec": 325.346,
+        "verifier": 9.712
+      },
+      "tokens": {
+        "input": 0,
+        "output": 0,
+        "cache": 0
+      },
+      "trajectory_id": "ytHFIb6c"
     }
   ],
   "metadata_association": [
@@ -280,6 +349,29 @@
         "output": 0,
         "cache": 0
       }
+    },
+    {
+      "job_name": "2026-03-19__16-52-48",
+      "trial_name": "metadata_association__f6PgSrA",
+      "agent": "pochi",
+      "model": "openai/gpt-5.2-codex",
+      "provider": "openai",
+      "passed": true,
+      "reward": 1,
+      "error": false,
+      "latency_sec": 112.718,
+      "latency_breakdown": {
+        "env_setup": 3.622,
+        "agent_setup": 13.485,
+        "agent_exec": 82.949,
+        "verifier": 7.359
+      },
+      "tokens": {
+        "input": 0,
+        "output": 0,
+        "cache": 0
+      },
+      "trajectory_id": "tK8rQLGY"
     }
   ],
   "monitor_background_streaming": [
@@ -351,12 +443,36 @@
         "output": 0,
         "cache": 0
       }
+    },
+    {
+      "job_name": "2026-03-19__16-52-48",
+      "trial_name": "monitor_background_streaming__6LdEoi5",
+      "agent": "pochi",
+      "model": "openai/gpt-5.2-codex",
+      "provider": "openai",
+      "passed": false,
+      "reward": 0,
+      "error": false,
+      "latency_sec": 77.019,
+      "latency_breakdown": {
+        "env_setup": 3.615,
+        "agent_setup": 11.988,
+        "agent_exec": 42.846,
+        "verifier": 12.72
+      },
+      "tokens": {
+        "input": 0,
+        "output": 0,
+        "cache": 0
+      },
+      "trajectory_id": "dT0LmnSE"
     }
   ],
   "python_env_setup_uv": [
     {
       "job_name": "2026-03-19__12-44-33",
       "trial_name": "python_env_setup_uv__yTMAQ2a",
+      "trajectory_id": "ahSCrf0Q",
       "agent": "pochi",
       "model": "anthropic/claude-4-6-sonnet",
       "provider": "anthropic",
@@ -374,8 +490,7 @@
         "input": 0,
         "output": 0,
         "cache": 0
-      },
-      "trajectory_id": "ahSCrf0Q"
+      }
     },
     {
       "job_name": "2026-03-19__13-56-36",
@@ -422,6 +537,29 @@
         "output": 0,
         "cache": 0
       }
+    },
+    {
+      "job_name": "2026-03-19__16-52-48",
+      "trial_name": "python_env_setup_uv__QKoj2nv",
+      "agent": "pochi",
+      "model": "openai/gpt-5.2-codex",
+      "provider": "openai",
+      "passed": false,
+      "reward": 0,
+      "error": false,
+      "latency_sec": 97.404,
+      "latency_breakdown": {
+        "env_setup": 3.172,
+        "agent_setup": 11.31,
+        "agent_exec": 65.248,
+        "verifier": 11.82
+      },
+      "tokens": {
+        "input": 0,
+        "output": 0,
+        "cache": 0
+      },
+      "trajectory_id": "rvCR7qed"
     }
   ],
   "sdk_basic_sandbox": [
@@ -493,6 +631,29 @@
         "output": 0,
         "cache": 0
       }
+    },
+    {
+      "job_name": "2026-03-19__16-52-48",
+      "trial_name": "sdk_basic_sandbox__AUjEW4S",
+      "agent": "pochi",
+      "model": "openai/gpt-5.2-codex",
+      "provider": "openai",
+      "passed": false,
+      "reward": 0,
+      "error": false,
+      "latency_sec": 138.798,
+      "latency_breakdown": {
+        "env_setup": 3.16,
+        "agent_setup": 11.329,
+        "agent_exec": 108.925,
+        "verifier": 9.696
+      },
+      "tokens": {
+        "input": 0,
+        "output": 0,
+        "cache": 0
+      },
+      "trajectory_id": "fBatWvRq"
     }
   ],
   "security_command_capture": [
@@ -564,6 +725,29 @@
         "output": 0,
         "cache": 0
       }
+    },
+    {
+      "job_name": "2026-03-19__16-52-48",
+      "trial_name": "security_command_capture__moowGK7",
+      "agent": "pochi",
+      "model": "openai/gpt-5.2-codex",
+      "provider": "openai",
+      "passed": true,
+      "reward": 1,
+      "error": false,
+      "latency_sec": 229.773,
+      "latency_breakdown": {
+        "env_setup": 3.287,
+        "agent_setup": 9.86,
+        "agent_exec": 198.901,
+        "verifier": 11.85
+      },
+      "tokens": {
+        "input": 0,
+        "output": 0,
+        "cache": 0
+      },
+      "trajectory_id": "a9oCrf0Q"
     }
   ],
   "web_server_public_url": [
@@ -635,6 +819,29 @@
         "output": 0,
         "cache": 0
       }
+    },
+    {
+      "job_name": "2026-03-19__16-52-48",
+      "trial_name": "web_server_public_url__gewqbhq",
+      "agent": "pochi",
+      "model": "openai/gpt-5.2-codex",
+      "provider": "openai",
+      "passed": false,
+      "reward": 0,
+      "error": false,
+      "latency_sec": 109.971,
+      "latency_breakdown": {
+        "env_setup": 59.892,
+        "agent_setup": 10.67,
+        "agent_exec": 23.995,
+        "verifier": 10.714
+      },
+      "tokens": {
+        "input": 0,
+        "output": 0,
+        "cache": 0
+      },
+      "trajectory_id": "VUgoZsb9"
     }
   ],
   "multiple_code_contexts": [
@@ -706,6 +913,29 @@
         "output": 0,
         "cache": 0
       }
+    },
+    {
+      "job_name": "2026-03-19__16-52-48",
+      "trial_name": "multiple_code_contexts__FexYcgJ",
+      "agent": "pochi",
+      "model": "openai/gpt-5.2-codex",
+      "provider": "openai",
+      "passed": false,
+      "reward": 0,
+      "error": false,
+      "latency_sec": 49.398,
+      "latency_breakdown": {
+        "env_setup": 3.305,
+        "agent_setup": 8.601,
+        "agent_exec": 25.775,
+        "verifier": 6.62
+      },
+      "tokens": {
+        "input": 0,
+        "output": 0,
+        "cache": 0
+      },
+      "trajectory_id": "uQbNJ6H9"
     }
   ]
 }
