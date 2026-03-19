@@ -16,9 +16,9 @@ Pochi
 E2B SDK is installed. Now let me write the script:   
 ✏️  Writing /home/user/solve.py ✔ 
 💫 Executing cd /home/user && python3 solve.py 2>&1 ✔ 
-💫 Executing cd /home/user && E2B_API_KEY=REDACTED python3 solve.py 2>&1 ✔ 
-💫 Executing cd /home/user && E2B_API_KEY=REDACTED python3 -c "from e2b import Sandbox; print('import ok')" 2>&1 ✔ 
-💫 Executing cd /home/user && E2B_API_KEY=REDACTED python3 -c "
+💫 Executing cd /home/user && E2B_API_KEY=E2B_API_KEY python3 solve.py 2>&1 ✔ 
+💫 Executing cd /home/user && E2B_API_KEY=E2B_API_KEY python3 -c "from e2b import Sandbox; print('import ok')" 2>&1 ✔ 
+💫 Executing cd /home/user && E2B_API_KEY=E2B_API_KEY python3 -c "
 import os
 from e2b import Sandbox
 api_key = os.environ.get('E2B_API_KEY')
@@ -27,7 +27,7 @@ print('Spawning...')
 sandbox = Sandbox(timeout=600, api_key=api_key)
 print('sandbox_id:', sandbox.sandbox_id)
 " 2>&1 ✔ 
-💫 Executing cd /home/user && E2B_API_KEY=REDACTED python3 -c "
+💫 Executing cd /home/user && E2B_API_KEY=E2B_API_KEY python3 -c "
 import traceback, os
 from e2b import Sandbox
 api_key = os.environ.get('E2B_API_KEY')
@@ -61,7 +61,7 @@ print(src[:3000])
 " 2>&1 ✔ 
 Now I have the correct API. The modern E2B SDK uses `Sandbox.create()`. Let me update the script:   
 ✏️  Writing /home/user/solve.py ✔ 
-💫 Executing cd /home/user && E2B_API_KEY=REDACTED python3 solve.py 2>&1 ✔ 
+💫 Executing cd /home/user && E2B_API_KEY=E2B_API_KEY python3 solve.py 2>&1 ✔ 
 The script ran successfully. Let me verify the output files:   
 💫 Executing cat /home/user/sandbox_id.txt && echo "" && cat /home/user/e2b_api_key.txt ✔ 
 🎉 Task Completed
@@ -76,7 +76,7 @@ The script `/home/user/solve.py` was written and executed successfully. Here's a
    ```
 5. **Writes the API key** to `/home/user/e2b_api_key.txt`:
    ```
-   REDACTED
+   E2B_API_KEY
    ```
 
 Note: The SDK v2.15.3 deprecated the `Sandbox(...)` constructor in favour of `Sandbox.create(...)`, which is what the script uses.   
