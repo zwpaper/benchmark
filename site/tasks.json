@@ -3,6 +3,7 @@
     {
       "job_name": "2026-03-19__01-06-10",
       "trial_name": "create_restore_snapshot__a2L5JCH",
+      "trajectory_id": "W1r2XdVB",
       "agent": "pochi",
       "model": "google/gemini-3-flash",
       "provider": "google",
@@ -20,14 +21,60 @@
         "input": 0,
         "output": 0,
         "cache": 0
+      }
+    },
+    {
+      "job_name": "2026-03-19__12-44-33",
+      "trial_name": "create_restore_snapshot__Sa4GP2s",
+      "agent": "pochi",
+      "model": "anthropic/claude-4-6-sonnet",
+      "provider": "anthropic",
+      "passed": true,
+      "reward": 1,
+      "error": false,
+      "latency_sec": 132.023,
+      "latency_breakdown": {
+        "env_setup": 5.277,
+        "agent_setup": 14.737,
+        "agent_exec": 78.109,
+        "verifier": 23.764
       },
-      "trajectory_id": "W1r2XdVB"
+      "tokens": {
+        "input": 0,
+        "output": 0,
+        "cache": 0
+      },
+      "trajectory_id": "PmA0zd0n"
+    },
+    {
+      "job_name": "2026-03-19__11-20-36",
+      "trial_name": "create_restore_snapshot__9oPSWgQ",
+      "agent": "pochi",
+      "model": "google/gemini-3.1-pro",
+      "provider": "google",
+      "passed": true,
+      "reward": 1,
+      "error": false,
+      "latency_sec": 265.994,
+      "latency_breakdown": {
+        "env_setup": 7.697,
+        "agent_setup": 23.44,
+        "agent_exec": 209.402,
+        "verifier": 16.785
+      },
+      "tokens": {
+        "input": 0,
+        "output": 0,
+        "cache": 0
+      },
+      "trajectory_id": "3fgQM74Q"
     }
   ],
   "env_vars_security_check": [
     {
       "job_name": "2026-03-19__01-06-10",
       "trial_name": "env_vars_security_check__zgoZUy2",
+      "trajectory_id": "xVlq5RWl",
       "agent": "pochi",
       "model": "google/gemini-3-flash",
       "provider": "google",
@@ -45,14 +92,59 @@
         "input": 0,
         "output": 0,
         "cache": 0
+      }
+    },
+    {
+      "job_name": "2026-03-19__12-44-33",
+      "trial_name": "env_vars_security_check__35f7yjs",
+      "agent": "pochi",
+      "model": "anthropic/claude-4-6-sonnet",
+      "provider": "anthropic",
+      "passed": true,
+      "reward": 1,
+      "error": false,
+      "latency_sec": 84.777,
+      "latency_breakdown": {
+        "env_setup": 3.719,
+        "agent_setup": 10.424,
+        "agent_exec": 52.938,
+        "verifier": 11.059
       },
-      "trajectory_id": "xVlq5RWl"
+      "tokens": {
+        "input": 0,
+        "output": 0,
+        "cache": 0
+      },
+      "trajectory_id": "Z8KJoMPs"
+    },
+    {
+      "job_name": "2026-03-19__11-20-36",
+      "trial_name": "env_vars_security_check__we2stzH",
+      "agent": "pochi",
+      "model": "google/gemini-3.1-pro",
+      "provider": "google",
+      "passed": false,
+      "reward": 0,
+      "error": false,
+      "latency_sec": 43.12,
+      "latency_breakdown": {
+        "env_setup": 6.486,
+        "agent_setup": 13.178,
+        "agent_exec": 5.107,
+        "verifier": 11.806
+      },
+      "tokens": {
+        "input": 0,
+        "output": 0,
+        "cache": 0
+      }
     }
   ],
   "manage_nginx_config": [
     {
       "job_name": "2026-03-19__01-06-10",
       "trial_name": "manage_nginx_config__A9bfGaB",
+      "trajectory_id": "lPPVNHyr",
       "agent": "pochi",
       "model": "google/gemini-3-flash",
       "provider": "google",
@@ -70,14 +162,60 @@
         "input": 0,
         "output": 0,
         "cache": 0
+      }
+    },
+    {
+      "job_name": "2026-03-19__12-44-33",
+      "trial_name": "manage_nginx_config__7pKRyZ3",
+      "agent": "pochi",
+      "model": "anthropic/claude-4-6-sonnet",
+      "provider": "anthropic",
+      "passed": false,
+      "reward": 0,
+      "error": false,
+      "latency_sec": 133.999,
+      "latency_breakdown": {
+        "env_setup": 3.943,
+        "agent_setup": 8.906,
+        "agent_exec": 103.48,
+        "verifier": 10.741
       },
-      "trajectory_id": "lPPVNHyr"
+      "tokens": {
+        "input": 0,
+        "output": 0,
+        "cache": 0
+      },
+      "trajectory_id": "l0zVNHyr"
+    },
+    {
+      "job_name": "2026-03-19__11-20-36",
+      "trial_name": "manage_nginx_config__st6Ksv7",
+      "agent": "pochi",
+      "model": "google/gemini-3.1-pro",
+      "provider": "google",
+      "passed": true,
+      "reward": 1,
+      "error": false,
+      "latency_sec": 354.53,
+      "latency_breakdown": {
+        "env_setup": 2.766,
+        "agent_setup": 11.087,
+        "agent_exec": 320.483,
+        "verifier": 12.942
+      },
+      "tokens": {
+        "input": 0,
+        "output": 0,
+        "cache": 0
+      },
+      "trajectory_id": "hivddn15"
     }
   ],
   "metadata_association": [
     {
       "job_name": "2026-03-19__01-06-10",
       "trial_name": "metadata_association__7WS9RHc",
+      "trajectory_id": "FdLk5ElL",
       "agent": "pochi",
       "model": "google/gemini-3-flash",
       "provider": "google",
@@ -95,14 +233,60 @@
         "input": 0,
         "output": 0,
         "cache": 0
+      }
+    },
+    {
+      "job_name": "2026-03-19__12-44-33",
+      "trial_name": "metadata_association__wUrpgUG",
+      "agent": "pochi",
+      "model": "anthropic/claude-4-6-sonnet",
+      "provider": "anthropic",
+      "passed": true,
+      "reward": 1,
+      "error": false,
+      "latency_sec": 110.794,
+      "latency_breakdown": {
+        "env_setup": 4.55,
+        "agent_setup": 15.352,
+        "agent_exec": 72.826,
+        "verifier": 11.06
       },
-      "trajectory_id": "FdLk5ElL"
+      "tokens": {
+        "input": 0,
+        "output": 0,
+        "cache": 0
+      },
+      "trajectory_id": "o6vZs8E1"
+    },
+    {
+      "job_name": "2026-03-19__11-20-36",
+      "trial_name": "metadata_association__2iDA3xH",
+      "agent": "pochi",
+      "model": "google/gemini-3.1-pro",
+      "provider": "google",
+      "passed": true,
+      "reward": 1,
+      "error": false,
+      "latency_sec": 218.891,
+      "latency_breakdown": {
+        "env_setup": 3.518,
+        "agent_setup": 16.237,
+        "agent_exec": 167.275,
+        "verifier": 22.422
+      },
+      "tokens": {
+        "input": 0,
+        "output": 0,
+        "cache": 0
+      },
+      "trajectory_id": "8NR5A4FS"
     }
   ],
   "monitor_background_streaming": [
     {
       "job_name": "2026-03-19__01-06-10",
       "trial_name": "monitor_background_streaming__fQa6Fif",
+      "trajectory_id": "TAp7GqNU",
       "agent": "pochi",
       "model": "google/gemini-3-flash",
       "provider": "google",
@@ -120,14 +304,60 @@
         "input": 0,
         "output": 0,
         "cache": 0
+      }
+    },
+    {
+      "job_name": "2026-03-19__12-44-33",
+      "trial_name": "monitor_background_streaming__84a7m62",
+      "agent": "pochi",
+      "model": "anthropic/claude-4-6-sonnet",
+      "provider": "anthropic",
+      "passed": true,
+      "reward": 1,
+      "error": false,
+      "latency_sec": 133.664,
+      "latency_breakdown": {
+        "env_setup": 4.892,
+        "agent_setup": 14.921,
+        "agent_exec": 86.67,
+        "verifier": 15.404
       },
-      "trajectory_id": "TAp7GqNU"
+      "tokens": {
+        "input": 0,
+        "output": 0,
+        "cache": 0
+      },
+      "trajectory_id": "bVAxDsOz"
+    },
+    {
+      "job_name": "2026-03-19__11-20-36",
+      "trial_name": "monitor_background_streaming__Ki7NY7Z",
+      "agent": "pochi",
+      "model": "google/gemini-3.1-pro",
+      "provider": "google",
+      "passed": true,
+      "reward": 1,
+      "error": false,
+      "latency_sec": 201.3,
+      "latency_breakdown": {
+        "env_setup": 3.728,
+        "agent_setup": 14.268,
+        "agent_exec": 158.791,
+        "verifier": 15.852
+      },
+      "tokens": {
+        "input": 0,
+        "output": 0,
+        "cache": 0
+      },
+      "trajectory_id": "mU2GqgOT"
     }
   ],
   "python_env_setup_uv": [
     {
       "job_name": "2026-03-19__01-06-10",
       "trial_name": "python_env_setup_uv__ZuQiU3Q",
+      "trajectory_id": "V05oZsb9",
       "agent": "pochi",
       "model": "google/gemini-3-flash",
       "provider": "google",
@@ -145,14 +375,60 @@
         "input": 0,
         "output": 0,
         "cache": 0
+      }
+    },
+    {
+      "job_name": "2026-03-19__12-44-33",
+      "trial_name": "python_env_setup_uv__yTMAQ2a",
+      "agent": "pochi",
+      "model": "anthropic/claude-4-6-sonnet",
+      "provider": "anthropic",
+      "passed": false,
+      "reward": 0,
+      "error": false,
+      "latency_sec": 480.765,
+      "latency_breakdown": {
+        "env_setup": 4.639,
+        "agent_setup": 13.19,
+        "agent_exec": 441.224,
+        "verifier": 14.911
       },
-      "trajectory_id": "V05oZsb9"
+      "tokens": {
+        "input": 0,
+        "output": 0,
+        "cache": 0
+      },
+      "trajectory_id": "5e0UBJxH"
+    },
+    {
+      "job_name": "2026-03-19__11-20-36",
+      "trial_name": "python_env_setup_uv__bc3HpCD",
+      "agent": "pochi",
+      "model": "google/gemini-3.1-pro",
+      "provider": "google",
+      "passed": false,
+      "reward": 0,
+      "error": false,
+      "latency_sec": 261.941,
+      "latency_breakdown": {
+        "env_setup": 3.396,
+        "agent_setup": 13.166,
+        "agent_exec": 220.848,
+        "verifier": 16.216
+      },
+      "tokens": {
+        "input": 0,
+        "output": 0,
+        "cache": 0
+      },
+      "trajectory_id": "IR0Mh27j"
     }
   ],
   "sdk_basic_sandbox": [
     {
       "job_name": "2026-03-19__01-06-10",
       "trial_name": "sdk_basic_sandbox__6aymVdU",
+      "trajectory_id": "0meY8QN5",
       "agent": "pochi",
       "model": "google/gemini-3-flash",
       "provider": "google",
@@ -170,14 +446,60 @@
         "input": 0,
         "output": 0,
         "cache": 0
+      }
+    },
+    {
+      "job_name": "2026-03-19__12-44-33",
+      "trial_name": "sdk_basic_sandbox__hEGPaZq",
+      "agent": "pochi",
+      "model": "anthropic/claude-4-6-sonnet",
+      "provider": "anthropic",
+      "passed": true,
+      "reward": 1,
+      "error": false,
+      "latency_sec": 452.556,
+      "latency_breakdown": {
+        "env_setup": 4.502,
+        "agent_setup": 11.561,
+        "agent_exec": 418.001,
+        "verifier": 11.794
       },
-      "trajectory_id": "0meY8QN5"
+      "tokens": {
+        "input": 0,
+        "output": 0,
+        "cache": 0
+      },
+      "trajectory_id": "Uc6a6upP"
+    },
+    {
+      "job_name": "2026-03-19__11-20-36",
+      "trial_name": "sdk_basic_sandbox__gAHZnXj",
+      "agent": "pochi",
+      "model": "google/gemini-3.1-pro",
+      "provider": "google",
+      "passed": false,
+      "reward": 0,
+      "error": false,
+      "latency_sec": 72.032,
+      "latency_breakdown": {
+        "env_setup": 3.088,
+        "agent_setup": 13.381,
+        "agent_exec": 36.933,
+        "verifier": 11.725
+      },
+      "tokens": {
+        "input": 0,
+        "output": 0,
+        "cache": 0
+      },
+      "trajectory_id": "DqQHdFBA"
     }
   ],
   "security_command_capture": [
     {
       "job_name": "2026-03-19__01-06-10",
       "trial_name": "security_command_capture__nzvCkxS",
+      "trajectory_id": "GU34G3Od",
       "agent": "pochi",
       "model": "google/gemini-3-flash",
       "provider": "google",
@@ -195,14 +517,60 @@
         "input": 0,
         "output": 0,
         "cache": 0
+      }
+    },
+    {
+      "job_name": "2026-03-19__12-44-33",
+      "trial_name": "security_command_capture__JJQXE7V",
+      "agent": "pochi",
+      "model": "anthropic/claude-4-6-sonnet",
+      "provider": "anthropic",
+      "passed": true,
+      "reward": 1,
+      "error": false,
+      "latency_sec": 205.707,
+      "latency_breakdown": {
+        "env_setup": 4.655,
+        "agent_setup": 12.215,
+        "agent_exec": 169.187,
+        "verifier": 12.243
       },
-      "trajectory_id": "GU34G3Od"
+      "tokens": {
+        "input": 0,
+        "output": 0,
+        "cache": 0
+      },
+      "trajectory_id": "mUZGqgOT"
+    },
+    {
+      "job_name": "2026-03-19__11-20-36",
+      "trial_name": "security_command_capture__zujd8eT",
+      "agent": "pochi",
+      "model": "google/gemini-3.1-pro",
+      "provider": "google",
+      "passed": true,
+      "reward": 1,
+      "error": false,
+      "latency_sec": 365.753,
+      "latency_breakdown": {
+        "env_setup": 3.391,
+        "agent_setup": 12.995,
+        "agent_exec": 317.094,
+        "verifier": 20.608
+      },
+      "tokens": {
+        "input": 0,
+        "output": 0,
+        "cache": 0
+      },
+      "trajectory_id": "2AUTlMtI"
     }
   ],
   "web_server_public_url": [
     {
       "job_name": "2026-03-19__01-06-10",
       "trial_name": "web_server_public_url__hrYcaw7",
+      "trajectory_id": "qoNO5oIO",
       "agent": "pochi",
       "model": "google/gemini-3-flash",
       "provider": "google",
@@ -220,14 +588,60 @@
         "input": 0,
         "output": 0,
         "cache": 0
+      }
+    },
+    {
+      "job_name": "2026-03-19__12-44-33",
+      "trial_name": "web_server_public_url__Y8MBnLP",
+      "agent": "pochi",
+      "model": "anthropic/claude-4-6-sonnet",
+      "provider": "anthropic",
+      "passed": false,
+      "reward": 0,
+      "error": false,
+      "latency_sec": 393.485,
+      "latency_breakdown": {
+        "env_setup": 3.668,
+        "agent_setup": 10.32,
+        "agent_exec": 362.36,
+        "verifier": 10.603
       },
-      "trajectory_id": "qoNO5oIO"
+      "tokens": {
+        "input": 0,
+        "output": 0,
+        "cache": 0
+      },
+      "trajectory_id": "HODSoMnA"
+    },
+    {
+      "job_name": "2026-03-19__11-20-36",
+      "trial_name": "web_server_public_url__iL2qGwH",
+      "agent": "pochi",
+      "model": "google/gemini-3.1-pro",
+      "provider": "google",
+      "passed": true,
+      "reward": 1,
+      "error": false,
+      "latency_sec": 155.706,
+      "latency_breakdown": {
+        "env_setup": 2.499,
+        "agent_setup": 11.533,
+        "agent_exec": 119.786,
+        "verifier": 14.586
+      },
+      "tokens": {
+        "input": 0,
+        "output": 0,
+        "cache": 0
+      },
+      "trajectory_id": "1Bej7FtT"
     }
   ],
   "multiple_code_contexts": [
     {
       "job_name": "2026-03-19__01-06-10",
       "trial_name": "multiple_code_contexts__dh9m7yq",
+      "trajectory_id": "XbODASVY",
       "agent": "pochi",
       "model": "google/gemini-3-flash",
       "provider": "google",
@@ -245,8 +659,53 @@
         "input": 0,
         "output": 0,
         "cache": 0
+      }
+    },
+    {
+      "job_name": "2026-03-19__12-44-33",
+      "trial_name": "multiple_code_contexts__GLEQ8GK",
+      "agent": "pochi",
+      "model": "anthropic/claude-4-6-sonnet",
+      "provider": "anthropic",
+      "passed": true,
+      "reward": 1,
+      "error": false,
+      "latency_sec": 97.094,
+      "latency_breakdown": {
+        "env_setup": 4.042,
+        "agent_setup": 9.119,
+        "agent_exec": 71.13,
+        "verifier": 6.597
       },
-      "trajectory_id": "XbODASVY"
+      "tokens": {
+        "input": 0,
+        "output": 0,
+        "cache": 0
+      },
+      "trajectory_id": "uyZNJ6H9"
+    },
+    {
+      "job_name": "2026-03-19__11-20-36",
+      "trial_name": "multiple_code_contexts__NpqqK9k",
+      "agent": "pochi",
+      "model": "google/gemini-3.1-pro",
+      "provider": "google",
+      "passed": false,
+      "reward": 0,
+      "error": false,
+      "latency_sec": 80.833,
+      "latency_breakdown": {
+        "env_setup": 3.3,
+        "agent_setup": 10.461,
+        "agent_exec": 50.86,
+        "verifier": 7.848
+      },
+      "tokens": {
+        "input": 0,
+        "output": 0,
+        "cache": 0
+      },
+      "trajectory_id": "c3XnYbH4"
     }
   ]
 }
