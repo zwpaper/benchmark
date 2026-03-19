@@ -22,3 +22,4 @@ STDERR:
 7. Save the created sandbox ID to a local file at `/home/user/e2b_task_info.json` under the key `sandbox_id` (e.g. `{"sandbox_id": "..."}`), so that the automated test suite can verify the sandbox state.
 
 Ensure you only use the `e2b` python package. The `e2b` package is already installed in the environment.
+Run the script directly to create the sandbox and set up the environment.

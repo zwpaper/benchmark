@@ -11,6 +11,6 @@ server {
 }
 ```
 
-After writing the file, read it back to verify the content. Finally, keep the sandbox alive (e.g., by setting a long timeout or not killing it), and write a JSON file to `/home/user/e2b_task_info.json` on the host machine containing the created `sandbox_id`.
+After writing the script, read it back to verify the content, and then execute it immediately. Finally, keep the sandbox alive (e.g., by setting a long timeout or not killing it), and write a JSON file to `/home/user/e2b_task_info.json` on the host machine containing the created `sandbox_id`.
 
 Assume the `E2B_API_KEY` is already set in the environment.

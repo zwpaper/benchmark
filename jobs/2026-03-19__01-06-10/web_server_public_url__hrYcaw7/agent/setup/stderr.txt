@@ -1,6 +1,0 @@
-[1;32m  Installing[0m Pochi version https://api.github.com/repos/TabbyML/pochi/releases/297754239
-[1;32m    Checking[0m for existing Pochi installation
-[1;32m    Fetching[0m archive for Linux, version https://api.github.com/repos/TabbyML/pochi/releases/297754239
-curl: (22) The requested URL returned error: 404
-[1;31mError[0m: Could not download Pochi version 'https://api.github.com/repos/TabbyML/pochi/releases/297754239'. See https://github.com/TabbyML/pochi/releases for a list of available releases
-
