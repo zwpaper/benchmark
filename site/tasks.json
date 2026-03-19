@@ -26,6 +26,7 @@
     {
       "job_name": "2026-03-19__12-44-33",
       "trial_name": "create_restore_snapshot__Sa4GP2s",
+      "trajectory_id": "PmA0zd0n",
       "agent": "pochi",
       "model": "anthropic/claude-4-6-sonnet",
       "provider": "anthropic",
@@ -43,31 +44,30 @@
         "input": 0,
         "output": 0,
         "cache": 0
-      },
-      "trajectory_id": "PmA0zd0n"
+      }
     },
     {
-      "job_name": "2026-03-19__11-20-36",
-      "trial_name": "create_restore_snapshot__9oPSWgQ",
+      "job_name": "2026-03-19__13-17-04",
+      "trial_name": "create_restore_snapshot__gReNxbm",
       "agent": "pochi",
       "model": "google/gemini-3.1-pro",
       "provider": "google",
       "passed": true,
       "reward": 1,
       "error": false,
-      "latency_sec": 265.994,
+      "latency_sec": 239.605,
       "latency_breakdown": {
-        "env_setup": 7.697,
-        "agent_setup": 23.44,
-        "agent_exec": 209.402,
-        "verifier": 16.785
+        "env_setup": 4.834,
+        "agent_setup": 15.535,
+        "agent_exec": 199.942,
+        "verifier": 13.081
       },
       "tokens": {
         "input": 0,
         "output": 0,
         "cache": 0
       },
-      "trajectory_id": "3fgQM74Q"
+      "trajectory_id": "RzR10heI"
     }
   ],
   "env_vars_security_check": [
@@ -97,6 +97,7 @@
     {
       "job_name": "2026-03-19__12-44-33",
       "trial_name": "env_vars_security_check__35f7yjs",
+      "trajectory_id": "Z8KJoMPs",
       "agent": "pochi",
       "model": "anthropic/claude-4-6-sonnet",
       "provider": "anthropic",
@@ -114,30 +115,30 @@
         "input": 0,
         "output": 0,
         "cache": 0
-      },
-      "trajectory_id": "Z8KJoMPs"
+      }
     },
     {
-      "job_name": "2026-03-19__11-20-36",
-      "trial_name": "env_vars_security_check__we2stzH",
+      "job_name": "2026-03-19__13-17-04",
+      "trial_name": "env_vars_security_check__3Eh2HCQ",
       "agent": "pochi",
       "model": "google/gemini-3.1-pro",
       "provider": "google",
-      "passed": false,
-      "reward": 0,
+      "passed": true,
+      "reward": 1,
       "error": false,
-      "latency_sec": 43.12,
+      "latency_sec": 167.161,
       "latency_breakdown": {
-        "env_setup": 6.486,
-        "agent_setup": 13.178,
-        "agent_exec": 5.107,
-        "verifier": 11.806
+        "env_setup": 3.928,
+        "agent_setup": 10.015,
+        "agent_exec": 137.53,
+        "verifier": 10.16
       },
       "tokens": {
         "input": 0,
         "output": 0,
         "cache": 0
-      }
+      },
+      "trajectory_id": "Mj2WBqD8"
     }
   ],
   "manage_nginx_config": [
@@ -167,6 +168,7 @@
     {
       "job_name": "2026-03-19__12-44-33",
       "trial_name": "manage_nginx_config__7pKRyZ3",
+      "trajectory_id": "l0zVNHyr",
       "agent": "pochi",
       "model": "anthropic/claude-4-6-sonnet",
       "provider": "anthropic",
@@ -184,31 +186,30 @@
         "input": 0,
         "output": 0,
         "cache": 0
-      },
-      "trajectory_id": "l0zVNHyr"
+      }
     },
     {
-      "job_name": "2026-03-19__11-20-36",
-      "trial_name": "manage_nginx_config__st6Ksv7",
+      "job_name": "2026-03-19__13-17-04",
+      "trial_name": "manage_nginx_config__Wq82qBb",
       "agent": "pochi",
       "model": "google/gemini-3.1-pro",
       "provider": "google",
       "passed": true,
       "reward": 1,
       "error": false,
-      "latency_sec": 354.53,
+      "latency_sec": 253.385,
       "latency_breakdown": {
-        "env_setup": 2.766,
-        "agent_setup": 11.087,
-        "agent_exec": 320.483,
-        "verifier": 12.942
+        "env_setup": 3.776,
+        "agent_setup": 10.272,
+        "agent_exec": 223.667,
+        "verifier": 9.99
       },
       "tokens": {
         "input": 0,
         "output": 0,
         "cache": 0
       },
-      "trajectory_id": "hivddn15"
+      "trajectory_id": "S0olmOAD"
     }
   ],
   "metadata_association": [
@@ -238,6 +239,7 @@
     {
       "job_name": "2026-03-19__12-44-33",
       "trial_name": "metadata_association__wUrpgUG",
+      "trajectory_id": "o6vZs8E1",
       "agent": "pochi",
       "model": "anthropic/claude-4-6-sonnet",
       "provider": "anthropic",
@@ -255,31 +257,30 @@
         "input": 0,
         "output": 0,
         "cache": 0
-      },
-      "trajectory_id": "o6vZs8E1"
+      }
     },
     {
-      "job_name": "2026-03-19__11-20-36",
-      "trial_name": "metadata_association__2iDA3xH",
+      "job_name": "2026-03-19__13-17-04",
+      "trial_name": "metadata_association__kroukVy",
       "agent": "pochi",
       "model": "google/gemini-3.1-pro",
       "provider": "google",
       "passed": true,
       "reward": 1,
       "error": false,
-      "latency_sec": 218.891,
+      "latency_sec": 115.344,
       "latency_breakdown": {
-        "env_setup": 3.518,
-        "agent_setup": 16.237,
-        "agent_exec": 167.275,
-        "verifier": 22.422
+        "env_setup": 4.849,
+        "agent_setup": 14.463,
+        "agent_exec": 81.289,
+        "verifier": 8.153
       },
       "tokens": {
         "input": 0,
         "output": 0,
         "cache": 0
       },
-      "trajectory_id": "8NR5A4FS"
+      "trajectory_id": "LWr9QbtE"
     }
   ],
   "monitor_background_streaming": [
@@ -309,6 +310,7 @@
     {
       "job_name": "2026-03-19__12-44-33",
       "trial_name": "monitor_background_streaming__84a7m62",
+      "trajectory_id": "bVAxDsOz",
       "agent": "pochi",
       "model": "anthropic/claude-4-6-sonnet",
       "provider": "anthropic",
@@ -326,31 +328,30 @@
         "input": 0,
         "output": 0,
         "cache": 0
-      },
-      "trajectory_id": "bVAxDsOz"
+      }
     },
     {
-      "job_name": "2026-03-19__11-20-36",
-      "trial_name": "monitor_background_streaming__Ki7NY7Z",
+      "job_name": "2026-03-19__13-17-04",
+      "trial_name": "monitor_background_streaming__fQoWXV9",
       "agent": "pochi",
       "model": "google/gemini-3.1-pro",
       "provider": "google",
-      "passed": true,
-      "reward": 1,
+      "passed": false,
+      "reward": 0,
       "error": false,
-      "latency_sec": 201.3,
+      "latency_sec": 219.722,
       "latency_breakdown": {
-        "env_setup": 3.728,
-        "agent_setup": 14.268,
-        "agent_exec": 158.791,
-        "verifier": 15.852
+        "env_setup": 4.574,
+        "agent_setup": 14.151,
+        "agent_exec": 183.39,
+        "verifier": 11.278
       },
       "tokens": {
         "input": 0,
         "output": 0,
         "cache": 0
       },
-      "trajectory_id": "mU2GqgOT"
+      "trajectory_id": "GCc4G3Od"
     }
   ],
   "python_env_setup_uv": [
@@ -380,6 +381,7 @@
     {
       "job_name": "2026-03-19__12-44-33",
       "trial_name": "python_env_setup_uv__yTMAQ2a",
+      "trajectory_id": "5e0UBJxH",
       "agent": "pochi",
       "model": "anthropic/claude-4-6-sonnet",
       "provider": "anthropic",
@@ -397,31 +399,30 @@
         "input": 0,
         "output": 0,
         "cache": 0
-      },
-      "trajectory_id": "5e0UBJxH"
+      }
     },
     {
-      "job_name": "2026-03-19__11-20-36",
-      "trial_name": "python_env_setup_uv__bc3HpCD",
+      "job_name": "2026-03-19__13-17-04",
+      "trial_name": "python_env_setup_uv__P4VpH8w",
       "agent": "pochi",
       "model": "google/gemini-3.1-pro",
       "provider": "google",
       "passed": false,
       "reward": 0,
       "error": false,
-      "latency_sec": 261.941,
+      "latency_sec": 223.959,
       "latency_breakdown": {
-        "env_setup": 3.396,
-        "agent_setup": 13.166,
-        "agent_exec": 220.848,
-        "verifier": 16.216
+        "env_setup": 4.288,
+        "agent_setup": 12.027,
+        "agent_exec": 187.997,
+        "verifier": 13.736
       },
       "tokens": {
         "input": 0,
         "output": 0,
         "cache": 0
       },
-      "trajectory_id": "IR0Mh27j"
+      "trajectory_id": "7gHz3yRS"
     }
   ],
   "sdk_basic_sandbox": [
@@ -451,6 +452,7 @@
     {
       "job_name": "2026-03-19__12-44-33",
       "trial_name": "sdk_basic_sandbox__hEGPaZq",
+      "trajectory_id": "Uc6a6upP",
       "agent": "pochi",
       "model": "anthropic/claude-4-6-sonnet",
       "provider": "anthropic",
@@ -468,31 +470,30 @@
         "input": 0,
         "output": 0,
         "cache": 0
-      },
-      "trajectory_id": "Uc6a6upP"
+      }
     },
     {
-      "job_name": "2026-03-19__11-20-36",
-      "trial_name": "sdk_basic_sandbox__gAHZnXj",
+      "job_name": "2026-03-19__13-17-04",
+      "trial_name": "sdk_basic_sandbox__zjVVMij",
       "agent": "pochi",
       "model": "google/gemini-3.1-pro",
       "provider": "google",
-      "passed": false,
-      "reward": 0,
+      "passed": true,
+      "reward": 1,
       "error": false,
-      "latency_sec": 72.032,
+      "latency_sec": 290.892,
       "latency_breakdown": {
-        "env_setup": 3.088,
-        "agent_setup": 13.381,
-        "agent_exec": 36.933,
-        "verifier": 11.725
+        "env_setup": 2.452,
+        "agent_setup": 12.853,
+        "agent_exec": 257.268,
+        "verifier": 11.611
       },
       "tokens": {
         "input": 0,
         "output": 0,
         "cache": 0
       },
-      "trajectory_id": "DqQHdFBA"
+      "trajectory_id": "niRhtPp8"
     }
   ],
   "security_command_capture": [
@@ -522,6 +523,7 @@
     {
       "job_name": "2026-03-19__12-44-33",
       "trial_name": "security_command_capture__JJQXE7V",
+      "trajectory_id": "mUZGqgOT",
       "agent": "pochi",
       "model": "anthropic/claude-4-6-sonnet",
       "provider": "anthropic",
@@ -539,31 +541,30 @@
         "input": 0,
         "output": 0,
         "cache": 0
-      },
-      "trajectory_id": "mUZGqgOT"
+      }
     },
     {
-      "job_name": "2026-03-19__11-20-36",
-      "trial_name": "security_command_capture__zujd8eT",
+      "job_name": "2026-03-19__13-17-04",
+      "trial_name": "security_command_capture__NUCnsGu",
       "agent": "pochi",
       "model": "google/gemini-3.1-pro",
       "provider": "google",
       "passed": true,
       "reward": 1,
       "error": false,
-      "latency_sec": 365.753,
+      "latency_sec": 211.913,
       "latency_breakdown": {
-        "env_setup": 3.391,
-        "agent_setup": 12.995,
-        "agent_exec": 317.094,
-        "verifier": 20.608
+        "env_setup": 4.116,
+        "agent_setup": 12.243,
+        "agent_exec": 176.422,
+        "verifier": 12.488
       },
       "tokens": {
         "input": 0,
         "output": 0,
         "cache": 0
       },
-      "trajectory_id": "2AUTlMtI"
+      "trajectory_id": "4y9u7qg3"
     }
   ],
   "web_server_public_url": [
@@ -593,6 +594,7 @@
     {
       "job_name": "2026-03-19__12-44-33",
       "trial_name": "web_server_public_url__Y8MBnLP",
+      "trajectory_id": "HODSoMnA",
       "agent": "pochi",
       "model": "anthropic/claude-4-6-sonnet",
       "provider": "anthropic",
@@ -610,31 +612,30 @@
         "input": 0,
         "output": 0,
         "cache": 0
-      },
-      "trajectory_id": "HODSoMnA"
+      }
     },
     {
-      "job_name": "2026-03-19__11-20-36",
-      "trial_name": "web_server_public_url__iL2qGwH",
+      "job_name": "2026-03-19__13-17-04",
+      "trial_name": "web_server_public_url__WfkTNic",
       "agent": "pochi",
       "model": "google/gemini-3.1-pro",
       "provider": "google",
       "passed": true,
       "reward": 1,
       "error": false,
-      "latency_sec": 155.706,
+      "latency_sec": 244.833,
       "latency_breakdown": {
-        "env_setup": 2.499,
-        "agent_setup": 11.533,
-        "agent_exec": 119.786,
-        "verifier": 14.586
+        "env_setup": 3.957,
+        "agent_setup": 10.104,
+        "agent_exec": 213.562,
+        "verifier": 11.426
       },
       "tokens": {
         "input": 0,
         "output": 0,
         "cache": 0
       },
-      "trajectory_id": "1Bej7FtT"
+      "trajectory_id": "6NQ8n7Cv"
     }
   ],
   "multiple_code_contexts": [
@@ -664,6 +665,7 @@
     {
       "job_name": "2026-03-19__12-44-33",
       "trial_name": "multiple_code_contexts__GLEQ8GK",
+      "trajectory_id": "uyZNJ6H9",
       "agent": "pochi",
       "model": "anthropic/claude-4-6-sonnet",
       "provider": "anthropic",
@@ -681,31 +683,30 @@
         "input": 0,
         "output": 0,
         "cache": 0
-      },
-      "trajectory_id": "uyZNJ6H9"
+      }
     },
     {
-      "job_name": "2026-03-19__11-20-36",
-      "trial_name": "multiple_code_contexts__NpqqK9k",
+      "job_name": "2026-03-19__13-17-04",
+      "trial_name": "multiple_code_contexts__RPNiYH4",
       "agent": "pochi",
       "model": "google/gemini-3.1-pro",
       "provider": "google",
       "passed": false,
       "reward": 0,
       "error": false,
-      "latency_sec": 80.833,
+      "latency_sec": 83.922,
       "latency_breakdown": {
-        "env_setup": 3.3,
-        "agent_setup": 10.461,
-        "agent_exec": 50.86,
-        "verifier": 7.848
+        "env_setup": 4.061,
+        "agent_setup": 9.005,
+        "agent_exec": 57.514,
+        "verifier": 7.342
       },
       "tokens": {
         "input": 0,
         "output": 0,
         "cache": 0
       },
-      "trajectory_id": "c3XnYbH4"
+      "trajectory_id": "Z5NJoMPs"
     }
   ]
 }
