@@ -8,4 +8,4 @@ Your task is to write a Python script `setup_env.py` that:
 5. Runs a Python command inside the sandbox using the virtual environment's Python (`/home/user/venv/bin/python`) to print the pandas version, and saves the output to `/home/user/pandas_version.txt` inside the sandbox.
 6. Writes the created sandbox ID to a local file at `/home/user/e2b_task_info.json` in the format `{"sandbox_id": "<the_id>"}` so the automated tests can connect to it and verify the environment.
 
-The script must be fully automated and use the `e2b` Python SDK. Assume `E2B_API_KEY` is already set in your environment.
+The script must be fully automated and use the `e2b` Python SDK. Assume `E2B_API_KEY` is already set in your environment, run the script directly to create the sandbox and set up the environment.

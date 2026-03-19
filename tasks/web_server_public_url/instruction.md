@@ -8,4 +8,4 @@ Write a Python script `solve.py` that does the following:
 5. Saves the sandbox ID and the full public URL (e.g. `https://<host>`) as a JSON object in `/home/user/e2b_task_info.json` on the **local** machine (not inside the sandbox). The JSON object should have the keys `sandbox_id` and `url`.
 6. Ensure the sandbox is kept alive for at least 5 minutes so we can verify the URL.
 
-Your script must be a standalone Python file `solve.py`.
+Your script must be a standalone Python file `solve.py`, and then run the script directly to create the sandbox and set up the environment.

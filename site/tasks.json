@@ -1,29 +1,6 @@
 {
   "create_restore_snapshot": [
     {
-      "job_name": "2026-03-19__01-06-10",
-      "trial_name": "create_restore_snapshot__a2L5JCH",
-      "trajectory_id": "W1r2XdVB",
-      "agent": "pochi",
-      "model": "google/gemini-3-flash",
-      "provider": "google",
-      "passed": true,
-      "reward": 1,
-      "error": false,
-      "latency_sec": 226.451,
-      "latency_breakdown": {
-        "env_setup": 4.665,
-        "agent_setup": 18.934,
-        "agent_exec": 180.211,
-        "verifier": 16.816
-      },
-      "tokens": {
-        "input": 0,
-        "output": 0,
-        "cache": 0
-      }
-    },
-    {
       "job_name": "2026-03-19__12-44-33",
       "trial_name": "create_restore_snapshot__Sa4GP2s",
       "trajectory_id": "PmA0zd0n",
@@ -49,6 +26,7 @@
     {
       "job_name": "2026-03-19__13-17-04",
       "trial_name": "create_restore_snapshot__gReNxbm",
+      "trajectory_id": "RzR10heI",
       "agent": "pochi",
       "model": "google/gemini-3.1-pro",
       "provider": "google",
@@ -66,34 +44,33 @@
         "input": 0,
         "output": 0,
         "cache": 0
-      },
-      "trajectory_id": "RzR10heI"
-    }
-  ],
-  "env_vars_security_check": [
+      }
+    },
     {
-      "job_name": "2026-03-19__01-06-10",
-      "trial_name": "env_vars_security_check__zgoZUy2",
-      "trajectory_id": "xVlq5RWl",
+      "job_name": "2026-03-19__13-56-36",
+      "trial_name": "create_restore_snapshot__xUmhSkY",
       "agent": "pochi",
-      "model": "google/gemini-3-flash",
-      "provider": "google",
+      "model": "zai/glm-4.7",
+      "provider": "zai",
       "passed": true,
       "reward": 1,
-      "error": false,
-      "latency_sec": 123.209,
+      "error": true,
+      "latency_sec": 639.606,
       "latency_breakdown": {
-        "env_setup": 4.009,
-        "agent_setup": 12.418,
-        "agent_exec": 93.393,
-        "verifier": 9.333
+        "env_setup": 4.535,
+        "agent_setup": 12.982,
+        "agent_exec": 600.002,
+        "verifier": 15.522
       },
       "tokens": {
         "input": 0,
         "output": 0,
         "cache": 0
-      }
-    },
+      },
+      "trajectory_id": "JULmkjle"
+    }
+  ],
+  "env_vars_security_check": [
     {
       "job_name": "2026-03-19__12-44-33",
       "trial_name": "env_vars_security_check__35f7yjs",
@@ -120,6 +97,7 @@
     {
       "job_name": "2026-03-19__13-17-04",
       "trial_name": "env_vars_security_check__3Eh2HCQ",
+      "trajectory_id": "Mj2WBqD8",
       "agent": "pochi",
       "model": "google/gemini-3.1-pro",
       "provider": "google",
@@ -137,34 +115,33 @@
         "input": 0,
         "output": 0,
         "cache": 0
-      },
-      "trajectory_id": "Mj2WBqD8"
-    }
-  ],
-  "manage_nginx_config": [
+      }
+    },
     {
-      "job_name": "2026-03-19__01-06-10",
-      "trial_name": "manage_nginx_config__A9bfGaB",
-      "trajectory_id": "lPPVNHyr",
+      "job_name": "2026-03-19__13-56-36",
+      "trial_name": "env_vars_security_check__9JEjvMa",
       "agent": "pochi",
-      "model": "google/gemini-3-flash",
-      "provider": "google",
-      "passed": false,
-      "reward": 0,
+      "model": "zai/glm-4.7",
+      "provider": "zai",
+      "passed": true,
+      "reward": 1,
       "error": false,
-      "latency_sec": 117.657,
+      "latency_sec": 134.502,
       "latency_breakdown": {
-        "env_setup": 13.346,
-        "agent_setup": 12.064,
-        "agent_exec": 78.033,
-        "verifier": 9.574
+        "env_setup": 3.804,
+        "agent_setup": 8.969,
+        "agent_exec": 105.201,
+        "verifier": 10.51
       },
       "tokens": {
         "input": 0,
         "output": 0,
         "cache": 0
-      }
-    },
+      },
+      "trajectory_id": "o8dZs8E1"
+    }
+  ],
+  "manage_nginx_config": [
     {
       "job_name": "2026-03-19__12-44-33",
       "trial_name": "manage_nginx_config__7pKRyZ3",
@@ -191,6 +168,7 @@
     {
       "job_name": "2026-03-19__13-17-04",
       "trial_name": "manage_nginx_config__Wq82qBb",
+      "trajectory_id": "S0olmOAD",
       "agent": "pochi",
       "model": "google/gemini-3.1-pro",
       "provider": "google",
@@ -208,34 +186,33 @@
         "input": 0,
         "output": 0,
         "cache": 0
-      },
-      "trajectory_id": "S0olmOAD"
-    }
-  ],
-  "metadata_association": [
+      }
+    },
     {
-      "job_name": "2026-03-19__01-06-10",
-      "trial_name": "metadata_association__7WS9RHc",
-      "trajectory_id": "FdLk5ElL",
+      "job_name": "2026-03-19__13-56-36",
+      "trial_name": "manage_nginx_config__ASEjiNW",
       "agent": "pochi",
-      "model": "google/gemini-3-flash",
-      "provider": "google",
-      "passed": true,
-      "reward": 1,
+      "model": "zai/glm-4.7",
+      "provider": "zai",
+      "passed": false,
+      "reward": 0,
       "error": false,
-      "latency_sec": 99.421,
+      "latency_sec": 462.066,
       "latency_breakdown": {
-        "env_setup": 4.653,
-        "agent_setup": 16.482,
-        "agent_exec": 66.404,
-        "verifier": 6.807
+        "env_setup": 3.162,
+        "agent_setup": 10.16,
+        "agent_exec": 432.665,
+        "verifier": 10.089
       },
       "tokens": {
         "input": 0,
         "output": 0,
         "cache": 0
-      }
-    },
+      },
+      "trajectory_id": "92bfKslL"
+    }
+  ],
+  "metadata_association": [
     {
       "job_name": "2026-03-19__12-44-33",
       "trial_name": "metadata_association__wUrpgUG",
@@ -262,6 +239,7 @@
     {
       "job_name": "2026-03-19__13-17-04",
       "trial_name": "metadata_association__kroukVy",
+      "trajectory_id": "LWr9QbtE",
       "agent": "pochi",
       "model": "google/gemini-3.1-pro",
       "provider": "google",
@@ -279,34 +257,33 @@
         "input": 0,
         "output": 0,
         "cache": 0
-      },
-      "trajectory_id": "LWr9QbtE"
-    }
-  ],
-  "monitor_background_streaming": [
+      }
+    },
     {
-      "job_name": "2026-03-19__01-06-10",
-      "trial_name": "monitor_background_streaming__fQa6Fif",
-      "trajectory_id": "TAp7GqNU",
+      "job_name": "2026-03-19__13-56-36",
+      "trial_name": "metadata_association__4irKTxa",
       "agent": "pochi",
-      "model": "google/gemini-3-flash",
-      "provider": "google",
+      "model": "zai/glm-4.7",
+      "provider": "zai",
       "passed": true,
       "reward": 1,
       "error": false,
-      "latency_sec": 185.02,
+      "latency_sec": 409.772,
       "latency_breakdown": {
-        "env_setup": 4.936,
-        "agent_setup": 20.649,
-        "agent_exec": 138.353,
-        "verifier": 15.332
+        "env_setup": 4.337,
+        "agent_setup": 12.937,
+        "agent_exec": 377.537,
+        "verifier": 8.07
       },
       "tokens": {
         "input": 0,
         "output": 0,
         "cache": 0
-      }
-    },
+      },
+      "trajectory_id": "S0hlmOAD"
+    }
+  ],
+  "monitor_background_streaming": [
     {
       "job_name": "2026-03-19__12-44-33",
       "trial_name": "monitor_background_streaming__84a7m62",
@@ -333,6 +310,7 @@
     {
       "job_name": "2026-03-19__13-17-04",
       "trial_name": "monitor_background_streaming__fQoWXV9",
+      "trajectory_id": "GCc4G3Od",
       "agent": "pochi",
       "model": "google/gemini-3.1-pro",
       "provider": "google",
@@ -350,34 +328,33 @@
         "input": 0,
         "output": 0,
         "cache": 0
-      },
-      "trajectory_id": "GCc4G3Od"
-    }
-  ],
-  "python_env_setup_uv": [
+      }
+    },
     {
-      "job_name": "2026-03-19__01-06-10",
-      "trial_name": "python_env_setup_uv__ZuQiU3Q",
-      "trajectory_id": "V05oZsb9",
+      "job_name": "2026-03-19__13-56-36",
+      "trial_name": "monitor_background_streaming__pHEaPaH",
       "agent": "pochi",
-      "model": "google/gemini-3-flash",
-      "provider": "google",
+      "model": "zai/glm-4.7",
+      "provider": "zai",
       "passed": false,
       "reward": 0,
       "error": false,
-      "latency_sec": 89.699,
+      "latency_sec": 164.676,
       "latency_breakdown": {
-        "env_setup": 2.922,
-        "agent_setup": 13.562,
-        "agent_exec": 57.704,
-        "verifier": 11.224
+        "env_setup": 4.33,
+        "agent_setup": 13.825,
+        "agent_exec": 126.741,
+        "verifier": 12.775
       },
       "tokens": {
         "input": 0,
         "output": 0,
         "cache": 0
-      }
-    },
+      },
+      "trajectory_id": "yLvFIb6c"
+    }
+  ],
+  "python_env_setup_uv": [
     {
       "job_name": "2026-03-19__12-44-33",
       "trial_name": "python_env_setup_uv__yTMAQ2a",
@@ -404,6 +381,7 @@
     {
       "job_name": "2026-03-19__13-17-04",
       "trial_name": "python_env_setup_uv__P4VpH8w",
+      "trajectory_id": "7gHz3yRS",
       "agent": "pochi",
       "model": "google/gemini-3.1-pro",
       "provider": "google",
@@ -421,34 +399,33 @@
         "input": 0,
         "output": 0,
         "cache": 0
-      },
-      "trajectory_id": "7gHz3yRS"
-    }
-  ],
-  "sdk_basic_sandbox": [
+      }
+    },
     {
-      "job_name": "2026-03-19__01-06-10",
-      "trial_name": "sdk_basic_sandbox__6aymVdU",
-      "trajectory_id": "0meY8QN5",
+      "job_name": "2026-03-19__13-56-36",
+      "trial_name": "python_env_setup_uv__DnURK5m",
       "agent": "pochi",
-      "model": "google/gemini-3-flash",
-      "provider": "google",
-      "passed": true,
-      "reward": 1,
+      "model": "zai/glm-4.7",
+      "provider": "zai",
+      "passed": false,
+      "reward": 0,
       "error": false,
-      "latency_sec": 165.171,
+      "latency_sec": 470.698,
       "latency_breakdown": {
-        "env_setup": 2.33,
-        "agent_setup": 13.388,
-        "agent_exec": 131.747,
-        "verifier": 12.197
+        "env_setup": 4.323,
+        "agent_setup": 13.279,
+        "agent_exec": 433.346,
+        "verifier": 13.81
       },
       "tokens": {
         "input": 0,
         "output": 0,
         "cache": 0
-      }
-    },
+      },
+      "trajectory_id": "dMqLmnSE"
+    }
+  ],
+  "sdk_basic_sandbox": [
     {
       "job_name": "2026-03-19__12-44-33",
       "trial_name": "sdk_basic_sandbox__hEGPaZq",
@@ -475,6 +452,7 @@
     {
       "job_name": "2026-03-19__13-17-04",
       "trial_name": "sdk_basic_sandbox__zjVVMij",
+      "trajectory_id": "niRhtPp8",
       "agent": "pochi",
       "model": "google/gemini-3.1-pro",
       "provider": "google",
@@ -492,34 +470,33 @@
         "input": 0,
         "output": 0,
         "cache": 0
-      },
-      "trajectory_id": "niRhtPp8"
-    }
-  ],
-  "security_command_capture": [
+      }
+    },
     {
-      "job_name": "2026-03-19__01-06-10",
-      "trial_name": "security_command_capture__nzvCkxS",
-      "trajectory_id": "GU34G3Od",
+      "job_name": "2026-03-19__13-56-36",
+      "trial_name": "sdk_basic_sandbox__CN4rxFg",
       "agent": "pochi",
-      "model": "google/gemini-3-flash",
-      "provider": "google",
-      "passed": false,
-      "reward": 0,
-      "error": false,
-      "latency_sec": 213.631,
+      "model": "zai/glm-4.7",
+      "provider": "zai",
+      "passed": true,
+      "reward": 1,
+      "error": true,
+      "latency_sec": 632.691,
       "latency_breakdown": {
-        "env_setup": 2.584,
-        "agent_setup": 13.958,
-        "agent_exec": 179.705,
-        "verifier": 12.103
+        "env_setup": 3.477,
+        "agent_setup": 11.603,
+        "agent_exec": 600,
+        "verifier": 11.585
       },
       "tokens": {
         "input": 0,
         "output": 0,
         "cache": 0
-      }
-    },
+      },
+      "trajectory_id": "uFgNJ6H9"
+    }
+  ],
+  "security_command_capture": [
     {
       "job_name": "2026-03-19__12-44-33",
       "trial_name": "security_command_capture__JJQXE7V",
@@ -546,6 +523,7 @@
     {
       "job_name": "2026-03-19__13-17-04",
       "trial_name": "security_command_capture__NUCnsGu",
+      "trajectory_id": "4y9u7qg3",
       "agent": "pochi",
       "model": "google/gemini-3.1-pro",
       "provider": "google",
@@ -563,34 +541,33 @@
         "input": 0,
         "output": 0,
         "cache": 0
-      },
-      "trajectory_id": "4y9u7qg3"
-    }
-  ],
-  "web_server_public_url": [
+      }
+    },
     {
-      "job_name": "2026-03-19__01-06-10",
-      "trial_name": "web_server_public_url__hrYcaw7",
-      "trajectory_id": "qoNO5oIO",
+      "job_name": "2026-03-19__13-56-36",
+      "trial_name": "security_command_capture__XDXBiFV",
       "agent": "pochi",
-      "model": "google/gemini-3-flash",
-      "provider": "google",
+      "model": "zai/glm-4.7",
+      "provider": "zai",
       "passed": false,
       "reward": 0,
       "error": false,
-      "latency_sec": 178.574,
+      "latency_sec": 101.673,
       "latency_breakdown": {
-        "env_setup": 2.3,
-        "agent_setup": 11.501,
-        "agent_exec": 148.822,
-        "verifier": 11.067
+        "env_setup": 4.015,
+        "agent_setup": 12.166,
+        "agent_exec": 68.308,
+        "verifier": 10.975
       },
       "tokens": {
         "input": 0,
         "output": 0,
         "cache": 0
-      }
-    },
+      },
+      "trajectory_id": "rz5R7qed"
+    }
+  ],
+  "web_server_public_url": [
     {
       "job_name": "2026-03-19__12-44-33",
       "trial_name": "web_server_public_url__Y8MBnLP",
@@ -617,6 +594,7 @@
     {
       "job_name": "2026-03-19__13-17-04",
       "trial_name": "web_server_public_url__WfkTNic",
+      "trajectory_id": "6NQ8n7Cv",
       "agent": "pochi",
       "model": "google/gemini-3.1-pro",
       "provider": "google",
@@ -634,34 +612,33 @@
         "input": 0,
         "output": 0,
         "cache": 0
-      },
-      "trajectory_id": "6NQ8n7Cv"
-    }
-  ],
-  "multiple_code_contexts": [
+      }
+    },
     {
-      "job_name": "2026-03-19__01-06-10",
-      "trial_name": "multiple_code_contexts__dh9m7yq",
-      "trajectory_id": "XbODASVY",
+      "job_name": "2026-03-19__13-56-36",
+      "trial_name": "web_server_public_url__E27obDV",
       "agent": "pochi",
-      "model": "google/gemini-3-flash",
-      "provider": "google",
-      "passed": true,
-      "reward": 1,
+      "model": "zai/glm-4.7",
+      "provider": "zai",
+      "passed": false,
+      "reward": 0,
       "error": false,
-      "latency_sec": 266.496,
+      "latency_sec": 58.556,
       "latency_breakdown": {
-        "env_setup": 21.214,
-        "agent_setup": 10.52,
-        "agent_exec": 224.813,
-        "verifier": 5.135
+        "env_setup": 3.648,
+        "agent_setup": 11.333,
+        "agent_exec": 27.771,
+        "verifier": 10.128
       },
       "tokens": {
         "input": 0,
         "output": 0,
         "cache": 0
-      }
-    },
+      },
+      "trajectory_id": "fT8tWvRq"
+    }
+  ],
+  "multiple_code_contexts": [
     {
       "job_name": "2026-03-19__12-44-33",
       "trial_name": "multiple_code_contexts__GLEQ8GK",
@@ -688,6 +665,7 @@
     {
       "job_name": "2026-03-19__13-17-04",
       "trial_name": "multiple_code_contexts__RPNiYH4",
+      "trajectory_id": "Z5NJoMPs",
       "agent": "pochi",
       "model": "google/gemini-3.1-pro",
       "provider": "google",
@@ -705,8 +683,30 @@
         "input": 0,
         "output": 0,
         "cache": 0
+      }
+    },
+    {
+      "job_name": "2026-03-19__13-56-36",
+      "trial_name": "multiple_code_contexts__aDAxxij",
+      "agent": "pochi",
+      "model": "zai/glm-4.7",
+      "provider": "zai",
+      "passed": false,
+      "reward": 0,
+      "error": false,
+      "latency_sec": 292.032,
+      "latency_breakdown": {
+        "env_setup": 3.892,
+        "agent_setup": 8.946,
+        "agent_exec": 265.967,
+        "verifier": 7.263
       },
-      "trajectory_id": "Z5NJoMPs"
+      "tokens": {
+        "input": 0,
+        "output": 0,
+        "cache": 0
+      },
+      "trajectory_id": "t70rQLGY"
     }
   ]
 }
