@@ -1,0 +1,40 @@
+{
+    "id": "a5a458b4-2982-493d-8ce7-81b137d31a5e",
+    "started_at": "2026-03-19T13:17:04.752219",
+    "finished_at": "2026-03-19T13:24:28.053013",
+    "n_total_trials": 10,
+    "stats": {
+        "n_trials": 10,
+        "n_errors": 0,
+        "evals": {
+            "pochi__gemini-3.1-pro__tasks": {
+                "n_trials": 10,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "mean": 0.7
+                    }
+                ],
+                "reward_stats": {
+                    "reward": {
+                        "1.0": [
+                            "create_restore_snapshot__gReNxbm",
+                            "env_vars_security_check__3Eh2HCQ",
+                            "manage_nginx_config__Wq82qBb",
+                            "metadata_association__kroukVy",
+                            "sdk_basic_sandbox__zjVVMij",
+                            "security_command_capture__NUCnsGu",
+                            "web_server_public_url__WfkTNic"
+                        ],
+                        "0.0": [
+                            "monitor_background_streaming__fQoWXV9",
+                            "python_env_setup_uv__P4VpH8w",
+                            "multiple_code_contexts__RPNiYH4"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            }
+        }
+    }
+}
