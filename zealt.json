@@ -1,5 +1,5 @@
 {
   "title": "E2B Benchmark",
-  "description": "Performance results of AI coding models on E2B tasks, measuring success rate and execution time with high precision.",
+  "description": "As AI writes more of the code now, we measure how well it understands yours - benchmarking real-world usage of your library across models, tasks, and evolving releases.",
   "github_repo": "https://github.com/kweizh/benchmark"
 }
