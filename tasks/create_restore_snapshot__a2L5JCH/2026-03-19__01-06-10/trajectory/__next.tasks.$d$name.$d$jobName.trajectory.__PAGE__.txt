@@ -1,6 +1,0 @@
-1:"$Sreact.fragment"
-2:I[11101,["/benchmark/_next/static/chunks/b6c4127be20b431a.js"],"TrajectoryPage"]
-3:I[75049,["/benchmark/_next/static/chunks/d2c13bb33c4fcd54.js","/benchmark/_next/static/chunks/c21188132e0e0d48.js"],"OutletBoundary"]
-4:"$Sreact.suspense"
-0:{"buildId":"AHnH28neU-bhneQ5EUfZM","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"w-full h-screen bg-background text-foreground font-sans selection:bg-primary/20 overflow-hidden","children":[["$","div",null,{"className":"fixed inset-0 -z-10 h-full w-full bg-background bg-[radial-gradient(#2a2a2a_1px,transparent_1px)] [background-size:16px_16px] [mask-image:radial-gradient(ellipse_50%_50%_at_50%_50%,#000_70%,transparent_100%)] opacity-20 dark:opacity-40"}],["$","$L2",null,{"title":"create_restore_snapshot__a2L5JCH","trajectoryUrl":"https://cc.getpochi.com/e/W1r2XdVB?title=create_restore_snapshot__a2L5JCH&theme=dark","fallbackUrl":"https://github.com/kweizh/benchmark/blob/main/jobs/2026-03-19__01-06-10/create_restore_snapshot__a2L5JCH/result.json"}]]}],[["$","script","script-0",{"src":"/benchmark/_next/static/chunks/b6c4127be20b431a.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
-5:null
