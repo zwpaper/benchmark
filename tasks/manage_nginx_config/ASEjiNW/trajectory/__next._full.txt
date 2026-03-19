@@ -6,11 +6,240 @@
 8:I[75049,["/benchmark/_next/static/chunks/d2c13bb33c4fcd54.js","/benchmark/_next/static/chunks/c21188132e0e0d48.js"],"ViewportBoundary"]
 a:I[75049,["/benchmark/_next/static/chunks/d2c13bb33c4fcd54.js","/benchmark/_next/static/chunks/c21188132e0e0d48.js"],"MetadataBoundary"]
 c:I[9986,["/benchmark/_next/static/chunks/d2c13bb33c4fcd54.js","/benchmark/_next/static/chunks/c21188132e0e0d48.js"],"default"]
-:HL["/benchmark/_next/static/chunks/d353b3a455aeb1c2.css","style"]
+:HL["/benchmark/_next/static/chunks/75fe5f0c21feab91.css","style"]
 :HL["/benchmark/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-0:{"P":null,"b":"qcm5RUTmQr__dRYQXEeCQ","c":["","tasks","manage_nginx_config","ASEjiNW","trajectory",""],"q":"","i":false,"f":[[["",{"children":["tasks",{"children":[["name","manage_nginx_config","d"],{"children":[["jobId","ASEjiNW","d"],{"children":["trajectory",{"children":["__PAGE__",{}]}]}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/benchmark/_next/static/chunks/d353b3a455aeb1c2.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"dark","children":["$","body",null,{"className":"inter_5972bc34-module__OU16Qa__className antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L4",[["$","script","script-0",{"src":"/benchmark/_next/static/chunks/eaca77d14d83c91d.js","async":true,"nonce":"$undefined"}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L8",null,{"children":"$L9"}],["$","div",null,{"hidden":true,"children":["$","$La",null,{"children":["$","$6",null,{"name":"Next.Metadata","children":"$Lb"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$c",[]],"S":true}
-d:I[55425,["/benchmark/_next/static/chunks/eaca77d14d83c91d.js"],"TrajectoryPage"]
-4:["$","div",null,{"className":"w-full h-screen bg-background text-foreground font-sans selection:bg-primary/20 overflow-hidden","children":[["$","div",null,{"className":"fixed inset-0 -z-10 h-full w-full bg-background bg-[radial-gradient(#2a2a2a_1px,transparent_1px)] [background-size:16px_16px] [mask-image:radial-gradient(ellipse_50%_50%_at_50%_50%,#000_70%,transparent_100%)] opacity-20 dark:opacity-40"}],["$","$Ld",null,{"title":"manage_nginx_config","trajectoryUrl":"https://cc.getpochi.com/f/raw.githubusercontent.com/kweizh/benchmark/refs/heads/main/jobs/2026-03-19__13-56-36/manage_nginx_config__ASEjiNW/agent/pochi/trajectory.jsonl?title=manage_nginx_config&theme=dark","fallbackUrl":"https://github.com/kweizh/benchmark/blob/main/jobs/2026-03-19__13-56-36/manage_nginx_config__ASEjiNW/result.json"}]]}]
+0:{"P":null,"b":"d6VdNWIvl0tgzXCjcB76R","c":["","tasks","manage_nginx_config","ASEjiNW","trajectory",""],"q":"","i":false,"f":[[["",{"children":["tasks",{"children":[["name","manage_nginx_config","d"],{"children":[["jobId","ASEjiNW","d"],{"children":["trajectory",{"children":["__PAGE__",{}]}]}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/benchmark/_next/static/chunks/75fe5f0c21feab91.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"dark","children":["$","body",null,{"className":"inter_5972bc34-module__OU16Qa__className antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L4",[["$","script","script-0",{"src":"/benchmark/_next/static/chunks/f0f998b18d7b90cb.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/benchmark/_next/static/chunks/fd19b71087c11892.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/benchmark/_next/static/chunks/6ccd90c2c09f1387.js","async":true,"nonce":"$undefined"}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L8",null,{"children":"$L9"}],["$","div",null,{"hidden":true,"children":["$","$La",null,{"children":["$","$6",null,{"name":"Next.Metadata","children":"$Lb"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$c",[]],"S":true}
+d:I[55425,["/benchmark/_next/static/chunks/f0f998b18d7b90cb.js","/benchmark/_next/static/chunks/fd19b71087c11892.js","/benchmark/_next/static/chunks/6ccd90c2c09f1387.js"],"TrajectoryPage"]
+e:T29ef,[37m2026-03-19 05:56:51.423[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37mnative:1[39m[0m[0m[1m[37m	Pochi[39m[22m[0m[0m	pochi v0.6.0
+[37m2026-03-19 05:56:51.508[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m/$bunfs/root/pochi:503027[39m[0m[0m[1m[37m	loadAgents[39m[22m[0m[0m	Loaded 4 custom agents (4 valid, 0 invalid)
+[37m2026-03-19 05:56:51.509[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m/$bunfs/root/pochi:503028[39m[0m[0m[1m[37m	loadSkills[39m[22m[0m[0m	Loaded 2 skills (2 valid, 0 invalid)
+[37m2026-03-19 05:56:51.525[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m/$bunfs/root/pochi:439288[39m[0m[0m[1m[37m	PochiVendor[39m[22m[0m[0m	JWT is expiring or missing, fetching a new one
+[37m2026-03-19 05:56:52.811[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m/$bunfs/root/pochi:415701[39m[0m[0m[1m[37m	MCPHub[39m[22m[0m[0m	MCP servers configuration changed via signal:
+[37m2026-03-19 05:56:52.811[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m/$bunfs/root/pochi:415813[39m[0m[0m[1m[37m	MCPHub[39m[22m[0m[0m	Build MCPHub Status
+[37m2026-03-19 05:56:52.906[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m/$bunfs/root/pochi:502453[39m[0m[0m[1m[37m	TaskRunner[39m[22m[0m[0m	Starting TaskRunner...
+[37m2026-03-19 05:56:52.918[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m/$bunfs/root/pochi:454195[39m[0m[0m[1m[37m	listFiles[39m[22m[0m[0m	Listing workspace files from /home/user with maxItems [33m500[39m
+[37m2026-03-19 05:56:52.999[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m/$bunfs/root/pochi:496495[39m[0m[0m[1m[37m	generateTaskTitle[39m[22m[0m[0m	Generating task title, old: null, new: You are a DevOps engineer automating infrastructure provisioning. Write a Python script `/home/user/provision.py` that uses the E2B Python SDK to create a new sandbox environment. Inside this sandbox, create a directory `/etc/custom_nginx/`. Then, write a configuration file `/etc/custom_nginx/nginx.conf` with the following content:
+[37m2026-03-19 05:57:04.924[39m[0m[0m	[33m[1mWARN[22m[39m[0m[0m	[37m[39m[0m[0m[1m[37m	GitStatus[39m[22m[0m[0m	readGitStatus timed out after 12000ms, returning undefined
+[37m2026-03-19 05:57:32.693[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m/$bunfs/root/pochi:454195[39m[0m[0m[1m[37m	listFiles[39m[22m[0m[0m	Listing workspace files from /home/user with maxItems [33m500[39m
+[37m2026-03-19 05:57:34.196[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m/$bunfs/root/pochi:496495[39m[0m[0m[1m[37m	generateTaskTitle[39m[22m[0m[0m	Generating task title, old: You are a DevOps engineer automating infrastructure provisioning. Write a Python script `/home/user/provision.py` that uses the E2B Python SDK to create a new sandbox environment. Inside this sandbox, create a directory `/etc/custom_nginx/`. Then, write a configuration file `/etc/custom_nginx/nginx.conf` with the following content:, new: Create E2B sandbox with custom Nginx configuration
+[37m2026-03-19 05:57:44.694[39m[0m[0m	[33m[1mWARN[22m[39m[0m[0m	[37m[39m[0m[0m[1m[37m	GitStatus[39m[22m[0m[0m	readGitStatus timed out after 12000ms, returning undefined
+[37m2026-03-19 05:57:47.856[39m[0m[0m	[31m[1mERROR[22m[39m[0m[0m	[37m/$bunfs/root/pochi:432009[39m[0m[0m[1m[37m	LiveChatKit[39m[22m[0m[0m	onError
+
+[97m[101m[1m Error [22m[49m[39m[0m[0m The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch(), 428297, 49, 428297, 49, /$bunfs/root/pochi[0m[0m
+error stack:
+  • [33mpochi[39m[0m[0m	<anonymous>[0m[0m
+	[37m/$bunfs/root/pochi:428297[39m[0m[0m
+  • [33mpochi[39m[0m[0m	<anonymous>[0m[0m
+	[37m/$bunfs/root/pochi:427934[39m[0m[0m
+  • [33mpochi[39m[0m[0m	<anonymous>[0m[0m
+	[37m/$bunfs/root/pochi:430946[39m[0m[0m
+  • [33mpochi[39m[0m[0m	<anonymous>[0m[0m
+	[37m/$bunfs/root/pochi:430944[39m[0m[0m
+  • [33mpochi[39m[0m[0m	processQueue[0m[0m
+	[37m/$bunfs/root/pochi:430937[39m[0m[0m
+  • [33mpochi[39m[0m[0m	processQueue[0m[0m
+	[37m/$bunfs/root/pochi:430931[39m[0m[0m
+  • [33mpochi[39m[0m[0m	<anonymous>[0m[0m
+	[37m/$bunfs/root/pochi:430952[39m[0m[0m
+  • [33mnative[39m[0m[0m	new Promise[0m[0m
+	[37mnative:1[39m[0m[0m
+  • [33mpochi[39m[0m[0m	run[0m[0m
+	[37m/$bunfs/root/pochi:430943[39m[0m[0m
+  • [33mpochi[39m[0m[0m	run[0m[0m
+	[37m/$bunfs/root/pochi:430942[39m[0m[0m
+  • [33mpochi[39m[0m[0m	transform[0m[0m
+	[37m/$bunfs/root/pochi:427934[39m[0m[0m
+  • [33mpochi[39m[0m[0m	transform[0m[0m
+	[37m/$bunfs/root/pochi:427933[39m[0m[0m
+  • [33mnative[39m[0m[0m	<anonymous>[0m[0m
+	[37mnative:1[39m[0m[0m
+  • [33mnative[39m[0m[0m	<anonymous>[0m[0m
+	[37mnative:1[39m[0m[0m
+  • [33mnative[39m[0m[0m	<anonymous>[0m[0m
+	[37mnative:1[39m[0m[0m
+  • [33mnative[39m[0m[0m	<anonymous>[0m[0m
+	[37mnative:1[39m[0m[0m
+  • [33mnative[39m[0m[0m	<anonymous>[0m[0m
+	[37mnative:1[39m[0m[0m
+  • [33mnative[39m[0m[0m	<anonymous>[0m[0m
+	[37mnative:1[39m[0m[0m
+  • [33mnative[39m[0m[0m	<anonymous>[0m[0m
+	[37mnative:1[39m[0m[0m
+  • [33mnative[39m[0m[0m	<anonymous>[0m[0m
+	[37mnative:7[39m[0m[0m
+  • [33mnative[39m[0m[0m	processTicksAndRejections[0m[0m
+	[37mnative:7[39m[0m[0m[0m[0m
+[37m2026-03-19 05:57:47.864[39m[0m[0m	[31m[1mERROR[22m[39m[0m[0m	[37m/$bunfs/root/pochi:502593[39m[0m[0m[1m[37m	TaskRunner[39m[22m[0m[0m	Task is failed, trying to resend last message to resume it. {
+  kind: [32m'InternalError'[39m,
+  message: [32m'The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()'[39m
+}
+[37m2026-03-19 05:57:47.866[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m/$bunfs/root/pochi:454195[39m[0m[0m[1m[37m	listFiles[39m[22m[0m[0m	Listing workspace files from /home/user with maxItems [33m500[39m
+[37m2026-03-19 05:57:59.868[39m[0m[0m	[33m[1mWARN[22m[39m[0m[0m	[37m[39m[0m[0m[1m[37m	GitStatus[39m[22m[0m[0m	readGitStatus timed out after 12000ms, returning undefined
+[37m2026-03-19 05:58:03.004[39m[0m[0m	[31m[1mERROR[22m[39m[0m[0m	[37m/$bunfs/root/pochi:432009[39m[0m[0m[1m[37m	LiveChatKit[39m[22m[0m[0m	onError
+
+[97m[101m[1m Error [22m[49m[39m[0m[0m The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch(), 428297, 49, 428297, 49, /$bunfs/root/pochi[0m[0m
+error stack:
+  • [33mpochi[39m[0m[0m	<anonymous>[0m[0m
+	[37m/$bunfs/root/pochi:428297[39m[0m[0m
+  • [33mpochi[39m[0m[0m	<anonymous>[0m[0m
+	[37m/$bunfs/root/pochi:427934[39m[0m[0m
+  • [33mpochi[39m[0m[0m	<anonymous>[0m[0m
+	[37m/$bunfs/root/pochi:430946[39m[0m[0m
+  • [33mpochi[39m[0m[0m	<anonymous>[0m[0m
+	[37m/$bunfs/root/pochi:430944[39m[0m[0m
+  • [33mpochi[39m[0m[0m	processQueue[0m[0m
+	[37m/$bunfs/root/pochi:430937[39m[0m[0m
+  • [33mpochi[39m[0m[0m	processQueue[0m[0m
+	[37m/$bunfs/root/pochi:430931[39m[0m[0m
+  • [33mpochi[39m[0m[0m	<anonymous>[0m[0m
+	[37m/$bunfs/root/pochi:430952[39m[0m[0m
+  • [33mnative[39m[0m[0m	new Promise[0m[0m
+	[37mnative:1[39m[0m[0m
+  • [33mpochi[39m[0m[0m	run[0m[0m
+	[37m/$bunfs/root/pochi:430943[39m[0m[0m
+  • [33mpochi[39m[0m[0m	run[0m[0m
+	[37m/$bunfs/root/pochi:430942[39m[0m[0m
+  • [33mpochi[39m[0m[0m	transform[0m[0m
+	[37m/$bunfs/root/pochi:427934[39m[0m[0m
+  • [33mpochi[39m[0m[0m	transform[0m[0m
+	[37m/$bunfs/root/pochi:427933[39m[0m[0m
+  • [33mnative[39m[0m[0m	<anonymous>[0m[0m
+	[37mnative:1[39m[0m[0m
+  • [33mnative[39m[0m[0m	<anonymous>[0m[0m
+	[37mnative:1[39m[0m[0m
+  • [33mnative[39m[0m[0m	<anonymous>[0m[0m
+	[37mnative:1[39m[0m[0m
+  • [33mnative[39m[0m[0m	<anonymous>[0m[0m
+	[37mnative:1[39m[0m[0m
+  • [33mnative[39m[0m[0m	<anonymous>[0m[0m
+	[37mnative:1[39m[0m[0m
+  • [33mnative[39m[0m[0m	<anonymous>[0m[0m
+	[37mnative:1[39m[0m[0m
+  • [33mnative[39m[0m[0m	<anonymous>[0m[0m
+	[37mnative:1[39m[0m[0m
+  • [33mnative[39m[0m[0m	<anonymous>[0m[0m
+	[37mnative:7[39m[0m[0m
+  • [33mnative[39m[0m[0m	processTicksAndRejections[0m[0m
+	[37mnative:7[39m[0m[0m[0m[0m
+[37m2026-03-19 05:58:09.011[39m[0m[0m	[31m[1mERROR[22m[39m[0m[0m	[37m/$bunfs/root/pochi:502593[39m[0m[0m[1m[37m	TaskRunner[39m[22m[0m[0m	Task is failed, trying to resend last message to resume it. {
+  kind: [32m'InternalError'[39m,
+  message: [32m'The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()'[39m
+}
+[37m2026-03-19 05:58:09.012[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m/$bunfs/root/pochi:454195[39m[0m[0m[1m[37m	listFiles[39m[22m[0m[0m	Listing workspace files from /home/user with maxItems [33m500[39m
+[37m2026-03-19 05:58:21.013[39m[0m[0m	[33m[1mWARN[22m[39m[0m[0m	[37m[39m[0m[0m[1m[37m	GitStatus[39m[22m[0m[0m	readGitStatus timed out after 12000ms, returning undefined
+[37m2026-03-19 06:04:01.034[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m[39m[0m[0m[1m[37m	TaskRunner[39m[22m[0m[0m	Failed:
+
+[97m[101m[1m TypeError [22m[49m[39m[0m[0m The DOMException.name getter can only be used on instances of DOMException, 1107, 17, 1107, 17, internal:util/inspect[0m[0m
+error stack:
+  • [33minspect[39m[0m[0m	formatError[0m[0m
+	[37mutil/inspect:1107[39m[0m[0m
+  • [33minspect[39m[0m[0m	formatRaw[0m[0m
+	[37mutil/inspect:854[39m[0m[0m
+  • [33minspect[39m[0m[0m	formatWithOptionsInternal[0m[0m
+	[37mutil/inspect:1661[39m[0m[0m
+  • [33mpochi[39m[0m[0m	transportFormatted[0m[0m
+	[37m/$bunfs/root/pochi:417727[39m[0m[0m
+  • [33mpochi[39m[0m[0m	log[0m[0m
+	[37m/$bunfs/root/pochi:417843[39m[0m[0m
+  • [33mpochi[39m[0m[0m	onError[0m[0m
+	[37m/$bunfs/root/pochi:500661[39m[0m[0m
+  • [33mpochi[39m[0m[0m	makeRequest[0m[0m
+	[37m/$bunfs/root/pochi:432009[39m[0m[0m
+  • [33m[39m[0m[0m	[0m[0m
+	[37m[39m[0m[0m
+  • [33m[39m[0m[0m	[0m[0m
+	[37m[39m[0m[0m
+  • [33m[39m[0m[0m	[0m[0m
+	[37m[39m[0m[0m
+  • [33m[39m[0m[0m	[0m[0m
+	[37m[39m[0m[0m
+  • [33mnative[39m[0m[0m	processTicksAndRejections[0m[0m
+	[37mnative:7[39m[0m[0m[0m[0m
+The DOMException.name getter can only be used on instances of DOMException
+f:Td28,Hit:1 https://deb.nodesource.com/node_20.x nodistro InRelease
+Hit:2 http://archive.ubuntu.com/ubuntu noble InRelease
+Hit:3 http://security.ubuntu.com/ubuntu noble-security InRelease
+Hit:4 http://archive.ubuntu.com/ubuntu noble-updates InRelease
+Hit:5 http://archive.ubuntu.com/ubuntu noble-backports InRelease
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+curl is already the newest version (8.5.0-2ubuntu10.8).
+0 upgraded, 0 newly installed, 0 to remove and 8 not upgraded.
+downloading uv 0.9.7 x86_64-unknown-linux-gnu
+no checksums to verify
+installing to /root/.local/bin
+  uv
+  uvx
+everything's installed!
+
+To add $HOME/.local/bin to your PATH, either restart your shell or run:
+
+    source $HOME/.local/bin/env (sh, bash, zsh)
+    source $HOME/.local/bin/env.fish (fish)
+Downloading pygments (1.2MiB)
+ Downloading pygments
+Installed 6 packages in 15ms
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-8.4.1, pluggy-1.6.0
+rootdir: /tests
+plugins: json-ctrf-0.3.5
+collected 2 items
+
+../../tests/test_outputs.py FE                                           [100%]
+
+==================================== ERRORS ====================================
+_______________ ERROR at setup of test_sandbox_nginx_config_file _______________
+
+path = '/home/user/e2b_task_info.json'
+
+    def _read_json_file(path):
+        try:
+>           with open(path, "r") as f:
+                 ^^^^^^^^^^^^^^^
+E           FileNotFoundError: [Errno 2] No such file or directory: '/home/user/e2b_task_info.json'
+
+/tests/test_outputs.py:12: FileNotFoundError
+
+During handling of the above exception, another exception occurred:
+
+    @pytest.fixture(scope="session")
+    def sandbox_id():
+>       data = _read_json_file(TASK_INFO_FILE)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/tests/test_outputs.py:21: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+path = '/home/user/e2b_task_info.json'
+
+    def _read_json_file(path):
+        try:
+            with open(path, "r") as f:
+                return json.load(f)
+        except FileNotFoundError:
+>           pytest.fail(f"JSON file not found: {path}")
+E           Failed: JSON file not found: /home/user/e2b_task_info.json
+
+/tests/test_outputs.py:15: Failed
+=================================== FAILURES ===================================
+__________________________ test_task_info_file_exists __________________________
+
+    def test_task_info_file_exists():
+>       assert os.path.isfile(TASK_INFO_FILE), f"Task info file not found: {TASK_INFO_FILE}"
+E       AssertionError: Task info file not found: /home/user/e2b_task_info.json
+E       assert False
+E        +  where False = <function isfile at 0x79b841abc220>('/home/user/e2b_task_info.json')
+E        +    where <function isfile at 0x79b841abc220> = <module 'posixpath' (frozen)>.isfile
+E        +      where <module 'posixpath' (frozen)> = os.path
+
+/tests/test_outputs.py:30: AssertionError
+=========================== short test summary info ============================
+ERROR ../../tests/test_outputs.py::test_sandbox_nginx_config_file - Failed: J...
+FAILED ../../tests/test_outputs.py::test_task_info_file_exists - AssertionErr...
+========================== 1 failed, 1 error in 0.02s ==========================
+4:["$","div",null,{"style":{"--background":"oklch(0.268 0.004 106.643)","--border":"oklch(0.362 0.01 106.893)"},"className":"w-full h-screen bg-background text-foreground font-sans selection:bg-primary/20 overflow-hidden","children":[["$","div",null,{"className":"fixed inset-0 -z-10 h-full w-full bg-background bg-[radial-gradient(#2a2a2a_1px,transparent_1px)] [background-size:16px_16px] [mask-image:radial-gradient(ellipse_50%_50%_at_50%_50%,#000_70%,transparent_100%)] opacity-20 dark:opacity-40"}],["$","div",null,{"className":"fixed inset-x-0 top-0 z-40 border-b border-border/50 bg-background/85 backdrop-blur-sm","children":["$","div",null,{"className":"mx-auto w-full max-w-[1400px] px-4 py-4 sm:px-7 lg:px-10","children":["$","div",null,{"className":"flex flex-col gap-1","children":[["$","h1",null,{"className":"truncate whitespace-nowrap font-bold text-2xl","children":"manage_nginx_config__ASEjiNW"}],["$","div",null,{"className":"mt-2 text-xs sm:text-sm","children":[["$","div",null,{"className":"grid grid-cols-2 gap-x-4 gap-y-1.5 sm:hidden","children":[["$","div",null,{"className":"font-medium text-amber-400","children":["Status: ","Failed"]}],["$","div",null,{"className":"text-muted-foreground","children":["Started: ","3/19 13:56"]}],["$","div",null,{"className":"text-muted-foreground","children":["Execution: ","7m 12.7s"]}],["$","div",null,{"className":"text-muted-foreground","children":["Test: ","10.1s"]}]]}],["$","div",null,{"className":"hidden items-center gap-4 sm:flex","children":[["$","span",null,{"className":"inline-flex shrink-0 items-center gap-1.5 font-medium text-amber-400","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-x h-3.5 w-3.5","aria-hidden":"true","children":[["$","path","1bl5f8",{"d":"M18 6 6 18"}],["$","path","d8bk6v",{"d":"m6 6 12 12"}],"$undefined"]}],["$","span",null,{"children":["Status: ","Failed"]}]]}],["$","span",null,{"className":"text-muted-foreground","children":["Started: ","3/19/2026, 1:56:36 PM"]}],["$","span",null,{"className":"text-muted-foreground truncate","children":["Execution: ","7m 12.7s"]}],["$","span",null,{"className":"text-muted-foreground truncate","children":["Test: ","10.1s"]}]]}]]}]]}]}]}],["$","$Ld",null,{"trajectoryUrl":"https://cc.getpochi.com/f/raw.githubusercontent.com/kweizh/benchmark/refs/heads/main/jobs/2026-03-19__13-56-36/manage_nginx_config__ASEjiNW/agent/pochi/trajectory.jsonl?title=manage_nginx_config&theme=dark","fallbackUrl":"https://github.com/kweizh/benchmark/blob/main/jobs/2026-03-19__13-56-36/manage_nginx_config__ASEjiNW/result.json","stderrText":"$e","verifierText":"$f","topOffsetClassName":"top-36 sm:top-32 lg:top-28"}]]}]
 9:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 7:null
 b:[["$","title","0",{"children":"E2B Benchmark"}],["$","meta","1",{"name":"description","content":"As AI writes more of the code now, we measure how well it understands yours - benchmarking real-world usage of your library across models, tasks, and evolving releases."}]]

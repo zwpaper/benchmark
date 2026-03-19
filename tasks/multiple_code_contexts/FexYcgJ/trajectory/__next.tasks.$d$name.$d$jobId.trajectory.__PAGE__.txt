@@ -1,6 +1,60 @@
 1:"$Sreact.fragment"
-2:I[55425,["/benchmark/_next/static/chunks/eaca77d14d83c91d.js"],"TrajectoryPage"]
-3:I[75049,["/benchmark/_next/static/chunks/d2c13bb33c4fcd54.js","/benchmark/_next/static/chunks/c21188132e0e0d48.js"],"OutletBoundary"]
-4:"$Sreact.suspense"
-0:{"buildId":"qcm5RUTmQr__dRYQXEeCQ","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"w-full h-screen bg-background text-foreground font-sans selection:bg-primary/20 overflow-hidden","children":[["$","div",null,{"className":"fixed inset-0 -z-10 h-full w-full bg-background bg-[radial-gradient(#2a2a2a_1px,transparent_1px)] [background-size:16px_16px] [mask-image:radial-gradient(ellipse_50%_50%_at_50%_50%,#000_70%,transparent_100%)] opacity-20 dark:opacity-40"}],["$","$L2",null,{"title":"multiple_code_contexts","trajectoryUrl":"https://cc.getpochi.com/f/raw.githubusercontent.com/kweizh/benchmark/refs/heads/main/jobs/2026-03-19__16-52-48/multiple_code_contexts__FexYcgJ/agent/pochi/trajectory.jsonl?title=multiple_code_contexts&theme=dark","fallbackUrl":"https://github.com/kweizh/benchmark/blob/main/jobs/2026-03-19__16-52-48/multiple_code_contexts__FexYcgJ/result.json"}]]}],[["$","script","script-0",{"src":"/benchmark/_next/static/chunks/eaca77d14d83c91d.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
-5:null
+2:I[55425,["/benchmark/_next/static/chunks/f0f998b18d7b90cb.js","/benchmark/_next/static/chunks/fd19b71087c11892.js","/benchmark/_next/static/chunks/6ccd90c2c09f1387.js"],"TrajectoryPage"]
+9:I[75049,["/benchmark/_next/static/chunks/d2c13bb33c4fcd54.js","/benchmark/_next/static/chunks/c21188132e0e0d48.js"],"OutletBoundary"]
+a:"$Sreact.suspense"
+3:Ta97,[37m2026-03-19 08:53:01.235[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37mnative:1[39m[0m[0m[1m[37m	Pochi[39m[22m[0m[0m	pochi v0.6.1
+[37m2026-03-19 08:53:01.400[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m/$bunfs/root/pochi:503183[39m[0m[0m[1m[37m	loadAgents[39m[22m[0m[0m	Loaded 5 custom agents (5 valid, 0 invalid)
+[37m2026-03-19 08:53:01.401[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m/$bunfs/root/pochi:503184[39m[0m[0m[1m[37m	loadSkills[39m[22m[0m[0m	Loaded 2 skills (2 valid, 0 invalid)
+[37m2026-03-19 08:53:01.424[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m/$bunfs/root/pochi:439420[39m[0m[0m[1m[37m	PochiVendor[39m[22m[0m[0m	JWT is expiring or missing, fetching a new one
+[37m2026-03-19 08:53:03.301[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m/$bunfs/root/pochi:415701[39m[0m[0m[1m[37m	MCPHub[39m[22m[0m[0m	MCP servers configuration changed via signal:
+[37m2026-03-19 08:53:03.301[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m/$bunfs/root/pochi:415813[39m[0m[0m[1m[37m	MCPHub[39m[22m[0m[0m	Build MCPHub Status
+[37m2026-03-19 08:53:03.490[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m/$bunfs/root/pochi:502609[39m[0m[0m[1m[37m	TaskRunner[39m[22m[0m[0m	Starting TaskRunner...
+[37m2026-03-19 08:53:03.590[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m/$bunfs/root/pochi:454339[39m[0m[0m[1m[37m	listFiles[39m[22m[0m[0m	Listing workspace files from /workspace with maxItems [33m500[39m
+[37m2026-03-19 08:53:03.702[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m/$bunfs/root/pochi:496641[39m[0m[0m[1m[37m	generateTaskTitle[39m[22m[0m[0m	Generating task title, old: null, new: # Task Description
+[37m2026-03-19 08:53:13.582[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m/$bunfs/root/pochi:454339[39m[0m[0m[1m[37m	listFiles[39m[22m[0m[0m	Listing workspace files from /workspace with maxItems [33m500[39m
+[37m2026-03-19 08:53:15.922[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m/$bunfs/root/pochi:496641[39m[0m[0m[1m[37m	generateTaskTitle[39m[22m[0m[0m	Generating task title, old: # Task Description, new: Create Python script to run isolated E2B contexts and download output files
+[37m2026-03-19 08:53:18.921[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m/$bunfs/root/pochi:454339[39m[0m[0m[1m[37m	listFiles[39m[22m[0m[0m	Listing workspace files from /workspace with maxItems [33m500[39m
+[37m2026-03-19 08:53:21.180[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m/$bunfs/root/pochi:454339[39m[0m[0m[1m[37m	listFiles[39m[22m[0m[0m	Listing workspace files from /workspace with maxItems [33m500[39m
+4:T7d4,============================= test session starts ==============================
+platform linux -- Python 3.11.15, pytest-9.0.2, pluggy-1.6.0 -- /usr/local/bin/python3.11
+cachedir: .pytest_cache
+rootdir: /tests
+plugins: anyio-4.12.1
+collecting ... collected 2 items
+
+../tests/test_outputs.py::test_host_out1 FAILED                          [ 50%]
+../tests/test_outputs.py::test_host_out2 FAILED                          [100%]
+
+=================================== FAILURES ===================================
+________________________________ test_host_out1 ________________________________
+
+    def test_host_out1():
+>       assert os.path.exists("/workspace/host_out1.txt"), "/workspace/host_out1.txt was not created"
+E       AssertionError: /workspace/host_out1.txt was not created
+E       assert False
+E        +  where False = <function exists at 0x748f5fb8b420>('/workspace/host_out1.txt')
+E        +    where <function exists at 0x748f5fb8b420> = <module 'posixpath' (frozen)>.exists
+E        +      where <module 'posixpath' (frozen)> = os.path
+
+/tests/test_outputs.py:4: AssertionError
+________________________________ test_host_out2 ________________________________
+
+    def test_host_out2():
+>       assert os.path.exists("/workspace/host_out2.txt"), "/workspace/host_out2.txt was not created"
+E       AssertionError: /workspace/host_out2.txt was not created
+E       assert False
+E        +  where False = <function exists at 0x748f5fb8b420>('/workspace/host_out2.txt')
+E        +    where <function exists at 0x748f5fb8b420> = <module 'posixpath' (frozen)>.exists
+E        +      where <module 'posixpath' (frozen)> = os.path
+
+/tests/test_outputs.py:10: AssertionError
+=========================== short test summary info ============================
+FAILED ../tests/test_outputs.py::test_host_out1 - AssertionError: /workspace/...
+FAILED ../tests/test_outputs.py::test_host_out2 - AssertionError: /workspace/...
+============================== 2 failed in 0.02s ===============================
+0:{"buildId":"d6VdNWIvl0tgzXCjcB76R","rsc":["$","$1","c",{"children":[["$","div",null,{"style":{"--background":"oklch(0.268 0.004 106.643)","--border":"oklch(0.362 0.01 106.893)"},"className":"w-full h-screen bg-background text-foreground font-sans selection:bg-primary/20 overflow-hidden","children":[["$","div",null,{"className":"fixed inset-0 -z-10 h-full w-full bg-background bg-[radial-gradient(#2a2a2a_1px,transparent_1px)] [background-size:16px_16px] [mask-image:radial-gradient(ellipse_50%_50%_at_50%_50%,#000_70%,transparent_100%)] opacity-20 dark:opacity-40"}],["$","div",null,{"className":"fixed inset-x-0 top-0 z-40 border-b border-border/50 bg-background/85 backdrop-blur-sm","children":["$","div",null,{"className":"mx-auto w-full max-w-[1400px] px-4 py-4 sm:px-7 lg:px-10","children":["$","div",null,{"className":"flex flex-col gap-1","children":[["$","h1",null,{"className":"truncate whitespace-nowrap font-bold text-2xl","children":"multiple_code_contexts__FexYcgJ"}],["$","div",null,{"className":"mt-2 text-xs sm:text-sm","children":[["$","div",null,{"className":"grid grid-cols-2 gap-x-4 gap-y-1.5 sm:hidden","children":[["$","div",null,{"className":"font-medium text-amber-400","children":["Status: ","Failed"]}],["$","div",null,{"className":"text-muted-foreground","children":["Started: ","3/19 16:52"]}],["$","div",null,{"className":"text-muted-foreground","children":["Execution: ","25.8s"]}],["$","div",null,{"className":"text-muted-foreground","children":["Test: ","6.6s"]}]]}],["$","div",null,{"className":"hidden items-center gap-4 sm:flex","children":[["$","span",null,{"className":"inline-flex shrink-0 items-center gap-1.5 font-medium text-amber-400","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-x h-3.5 w-3.5","aria-hidden":"true","children":[["$","path","1bl5f8",{"d":"M18 6 6 18"}],["$","path","d8bk6v",{"d":"m6 6 12 12"}],"$undefined"]}],["$","span",null,{"children":["Status: ","Failed"]}]]}],["$","span",null,{"className":"text-muted-foreground","children":["Started: ","3/19/2026, 4:52:48 PM"]}],["$","span",null,{"className":"text-muted-foreground truncate","children":["Execution: ","25.8s"]}],["$","span",null,{"className":"text-muted-foreground truncate","children":["Test: ","6.6s"]}]]}]]}]]}]}]}],["$","$L2",null,{"trajectoryUrl":"https://cc.getpochi.com/f/raw.githubusercontent.com/kweizh/benchmark/refs/heads/main/jobs/2026-03-19__16-52-48/multiple_code_contexts__FexYcgJ/agent/pochi/trajectory.jsonl?title=multiple_code_contexts&theme=dark","fallbackUrl":"https://github.com/kweizh/benchmark/blob/main/jobs/2026-03-19__16-52-48/multiple_code_contexts__FexYcgJ/result.json","stderrText":"$3","verifierText":"$4","topOffsetClassName":"top-36 sm:top-32 lg:top-28"}]]}],["$L5","$L6","$L7"],"$L8"]}],"loading":null,"isPartial":false}
+5:["$","script","script-0",{"src":"/benchmark/_next/static/chunks/f0f998b18d7b90cb.js","async":true}]
+6:["$","script","script-1",{"src":"/benchmark/_next/static/chunks/fd19b71087c11892.js","async":true}]
+7:["$","script","script-2",{"src":"/benchmark/_next/static/chunks/6ccd90c2c09f1387.js","async":true}]
+8:["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
+b:null
