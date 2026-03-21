@@ -1,6 +1,6 @@
 1:"$Sreact.fragment"
 3:I[75049,["/benchmark/_next/static/chunks/d2c13bb33c4fcd54.js","/benchmark/_next/static/chunks/c21188132e0e0d48.js"],"OutletBoundary"]
 4:"$Sreact.suspense"
-0:{"buildId":"UkCENxfknDQ6ti-SyPZHw","rsc":["$","$1","c",{"children":["$L2",[["$","script","script-0",{"src":"/benchmark/_next/static/chunks/949c0b4ed558933c.js","async":true}],["$","script","script-1",{"src":"/benchmark/_next/static/chunks/a58a55745f2c43e8.js","async":true}],["$","script","script-2",{"src":"/benchmark/_next/static/chunks/2ad5122eae704b1a.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
+0:{"buildId":"YYrBJFkKV5RSnkzmX1oTO","rsc":["$","$1","c",{"children":["$L2",[["$","script","script-0",{"src":"/benchmark/_next/static/chunks/949c0b4ed558933c.js","async":true}],["$","script","script-1",{"src":"/benchmark/_next/static/chunks/a58a55745f2c43e8.js","async":true}],["$","script","script-2",{"src":"/benchmark/_next/static/chunks/2ad5122eae704b1a.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
 5:null
 2:E{"digest":"NEXT_REDIRECT;replace;https://github.com/kweizh/benchmark/blob/main/jobs/2026-03-19__11-20-36/env_vars_security_check__we2stzH/result.json;307;"}
