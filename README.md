@@ -2,7 +2,7 @@
 
 This repository contains benchmarks for [E2B](https://e2b.dev/), a next-generation version control system.
 
-You can view the evaluation reports at [zwpaper.github.io/benchmark](https://zwpaper.github.io/benchmark/).
+You can view the evaluation reports at [kweizh.github.io/benchmark](https://kweizh.github.io/benchmark/).
 
 ## Project Structure
 
