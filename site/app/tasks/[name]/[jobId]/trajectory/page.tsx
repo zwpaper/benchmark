@@ -45,25 +45,6 @@ function formatStartTime(jobName: string): string {
   return localDate.toLocaleString();
 }
 
-function formatStartTimeShort(jobName: string): string {
-  const match = jobName.match(/^(\d{4})-(\d{2})-(\d{2})__(\d{2})-(\d{2})-(\d{2})$/);
-  if (!match) {
-    return "Unknown";
-  }
-
-  const [, year, month, day, hour, minute, second] = match;
-  const localDate = new Date(Number(year), Number(month) - 1, Number(day), Number(hour), Number(minute), Number(second));
-  if (Number.isNaN(localDate.getTime())) {
-    return "Unknown";
-  }
-
-  const monthLabel = String(localDate.getMonth() + 1);
-  const dayLabel = String(localDate.getDate());
-  const hourLabel = String(localDate.getHours()).padStart(2, "0");
-  const minuteLabel = String(localDate.getMinutes()).padStart(2, "0");
-  return `${monthLabel}/${dayLabel} ${hourLabel}:${minuteLabel}`;
-}
-
 function formatDuration(durationSec: number | null | undefined): string {
   if (durationSec == null || Number.isNaN(durationSec)) {
     return "Unknown";
@@ -164,7 +145,6 @@ function buildClipUrl(jobName: string, trialName: string, title: string): string
   const ownerRepo = getGithubOwnerRepo();
   const url = new URL(`/f/raw.githubusercontent.com/${ownerRepo}/refs/heads/main/jobs/${jobName}/${trialName}/agent/pochi/trajectory.jsonl`, getServerBaseUrl());
   url.searchParams.set("title", title);
-  url.searchParams.set("theme", "dark");
   return url.toString();
 }
 
@@ -261,18 +241,15 @@ export default async function TrajectoryRoutePage({
   const fallbackUrl = trialEntry
     ? buildFallbackUrl(trialEntry.job_name, trialEntry.trial_name)
     : null;
-  const clipId = trialEntry?.trajectory_id?.trim() || null;
   const headerTitle = `${resolvedParams.name}__${resolvedParams.jobId}`;
   const startedAt = trialEntry ? formatStartTime(trialEntry.job_name) : "Unknown";
-  const startedAtShort = trialEntry ? formatStartTimeShort(trialEntry.job_name) : "Unknown";
   const executionDurationLabel = formatDuration(trialEntry?.latency_breakdown?.agent_exec ?? null);
-  const verifyDurationLabel = formatDuration(trialEntry?.latency_breakdown?.verifier ?? null);
   const trialStatus = getTrialStatus(trialEntry);
   const statusMeta = getStatusMeta(trialStatus);
   const StatusIcon = statusMeta.Icon;
   const taskDirUrl = buildTaskDirUrl(resolvedParams.name);
   
-  const trajectoryUrl = clipId && trialEntry
+  const trajectoryUrl = trialEntry
     ? buildClipUrl(trialEntry.job_name, trialEntry.trial_name, resolvedParams.name)
     : null;
   
@@ -288,10 +265,10 @@ export default async function TrajectoryRoutePage({
     <div className="flex h-screen w-full flex-col overflow-hidden bg-background text-foreground font-sans selection:bg-primary/20">
       <div className="fixed inset-0 -z-10 h-full w-full bg-background bg-[radial-gradient(#2a2a2a_1px,transparent_1px)] [background-size:16px_16px] [mask-image:radial-gradient(ellipse_50%_50%_at_50%_50%,#000_70%,transparent_100%)] opacity-20 dark:opacity-40"></div>
       <div className="z-40 shrink-0 bg-background/85 backdrop-blur-sm">
-        <div className="mx-auto w-full max-w-[1400px] px-4 py-4 sm:px-7 lg:px-10">
+        <div className="mx-auto w-full max-w-[1400px] px-4 py-6 sm:px-7 sm:py-8 lg:px-10">
           <div className="flex flex-col gap-1">
-            <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between sm:gap-3">
-              <h1 className="min-w-0 truncate whitespace-nowrap font-bold text-2xl sm:flex-1 sm:pr-4">
+            <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-start sm:gap-2">
+              <h1 className="min-w-0 truncate whitespace-nowrap font-bold text-2xl">
                 {headerTitle}
               </h1>
               <a
