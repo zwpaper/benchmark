@@ -1,0 +1,62 @@
+{
+    "results": {
+        "tool": {
+            "name": "pytest",
+            "version": "8.4.1"
+        },
+        "summary": {
+            "tests": 4,
+            "passed": 2,
+            "failed": 2,
+            "skipped": 0,
+            "pending": 0,
+            "other": 0,
+            "start": 1774934491.9846141,
+            "stop": 1774934493.2177413
+        },
+        "tests": [
+            {
+                "name": "test_final_state.py::test_task_info_file_exists",
+                "status": "passed",
+                "duration": 0.0002843271940946579,
+                "start": 1774934491.9904573,
+                "stop": 1774934491.9908864,
+                "retries": 0,
+                "file_path": "test_final_state.py"
+            },
+            {
+                "name": "test_final_state.py::test_venv_directory_exists",
+                "status": "failed",
+                "raw_status": "call_failed",
+                "duration": 0.18845435231924057,
+                "start": 1774934491.991051,
+                "stop": 1774934492.1862128,
+                "retries": 0,
+                "file_path": "test_final_state.py",
+                "trace": "sandbox_id = 'i7vm5nl4wm817d1imy6tt'\n\n    def test_venv_directory_exists(sandbox_id):\n        result = subprocess.run(\n            [\"e2b\", \"sandbox\", \"exec\", sandbox_id, \"ls\", \"-d\", \"/home/user/venv\"],\n            capture_output=True,\n            text=True,\n            env=env,\n        )\n>       assert result.returncode == 0, f\"Failed to find /home/user/venv in sandbox.\\nSTDERR: {result.stderr}\"\nE       AssertionError: Failed to find /home/user/venv in sandbox.\nE         STDERR: error: unknown option '-d'\nE         \nE       assert 1 == 0\nE        +  where 1 = CompletedProcess(args=['e2b', 'sandbox', 'exec', 'i7vm5nl4wm817d1imy6tt', 'ls', '-d', '/home/user/venv'], returncode=1, stdout='', stderr=\"error: unknown option '-d'\\n\").returncode\n\n/tests/test_final_state.py:36: AssertionError",
+                "message": "The test failed in the call phase due to an assertion error"
+            },
+            {
+                "name": "test_final_state.py::test_pandas_installed_in_venv",
+                "status": "failed",
+                "raw_status": "call_failed",
+                "duration": 0.47120054345577955,
+                "start": 1774934492.1863542,
+                "stop": 1774934492.6593258,
+                "retries": 0,
+                "file_path": "test_final_state.py",
+                "trace": "sandbox_id = 'i7vm5nl4wm817d1imy6tt'\n\n    def test_pandas_installed_in_venv(sandbox_id):\n        result = subprocess.run(\n            [\"e2b\", \"sandbox\", \"exec\", sandbox_id, \"/home/user/venv/bin/python\", \"-c\", \"import pandas\"],\n            capture_output=True,\n            text=True,\n            env=env,\n        )\n>       assert result.returncode == 0, f\"Failed to import pandas using venv python.\\nSTDERR: {result.stderr}\"\nE       AssertionError: Failed to import pandas using venv python.\nE         STDERR: at [InvalidArgumentError]: [invalid_argument] cwd '/home/user/import pandas' does not exist\nE             at message (/usr/lib/node_modules/@e2b/js-sdk/src/envd/rpc.ts:17:40)\nE             at handleRpcError (/usr/lib/node_modules/@e2b/js-sdk/src/envd/rpc.ts:50:40)\nE             at T_.start (/usr/lib/node_modules/@e2b/js-sdk/src/sandbox/commands/index.ts:460:13)\nE             at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\nE             at async T_.run (/usr/lib/node_modules/@e2b/js-sdk/src/sandbox/commands/index.ts:396:18)\nE             at async u2e (/usr/lib/node_modules/@e2b/cli/src/commands/sandbox/exec.ts:106:18)\nE             at async t.<anonymous> (/usr/lib/node_modules/@e2b/cli/src/commands/sandbox/exec.ts:90:26)\nE             at async t.parseAsync (/usr/lib/node_modules/node_modules/.pnpm/commander@11.1.0/node_modules/commander/lib/command.js:936:5)\nE             at async EIe (/usr/lib/node_modules/@e2b/cli/src/index.ts:36:3)\nE         \nE       assert 1 == 0\nE        +  where 1 = CompletedProcess(args=['e2b', 'sandbox', 'exec', 'i7vm5nl4wm817d1imy6tt', '/home/user/venv/bin/python', '-c', 'import ...0/node_modules/commander/lib/command.js:936:5)\\n    at async EIe (/usr/lib/node_modules/@e2b/cli/src/index.ts:36:3)\\n\").returncode\n\n/tests/test_final_state.py:45: AssertionError",
+                "message": "The test failed in the call phase due to an assertion error"
+            },
+            {
+                "name": "test_final_state.py::test_pandas_version_file",
+                "status": "passed",
+                "duration": 0.557854943908751,
+                "start": 1774934492.6594968,
+                "stop": 1774934493.217548,
+                "retries": 0,
+                "file_path": "test_final_state.py"
+            }
+        ]
+    }
+}
