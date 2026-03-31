@@ -7,7 +7,7 @@
         "n_trials": 10,
         "n_errors": 0,
         "evals": {
-            "pochi__glm-4.7__e2b-tasks": {
+            "pochi__glm-4.7-with-skills__e2b-tasks": {
                 "n_trials": 10,
                 "n_errors": 0,
                 "metrics": [
