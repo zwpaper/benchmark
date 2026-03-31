@@ -1,0 +1,233 @@
+Hit:1 http://security.ubuntu.com/ubuntu jammy-security InRelease
+Hit:2 https://deb.nodesource.com/node_20.x nodistro InRelease
+Hit:3 http://archive.ubuntu.com/ubuntu jammy InRelease
+Hit:4 http://archive.ubuntu.com/ubuntu jammy-updates InRelease
+Hit:5 http://archive.ubuntu.com/ubuntu jammy-backports InRelease
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+curl is already the newest version (7.81.0-1ubuntu1.23).
+The following packages were automatically installed and are no longer required:
+  adwaita-icon-theme at-spi2-core dbus dbus-user-session
+  dconf-gsettings-backend dconf-service dmsetup fontconfig gir1.2-glib-2.0
+  gsettings-desktop-schemas gtk-update-icon-cache gyp hicolor-icon-theme
+  humanity-icon-theme libapparmor1 libargon2-1 libatk-bridge2.0-0 libatk1.0-0
+  libatk1.0-data libatspi2.0-0 libauthen-sasl-perl libavahi-client3
+  libavahi-common-data libavahi-common3 libc-ares2 libcairo-gobject2 libcairo2
+  libclone-perl libcolord2 libcryptsetup12 libcups2 libdata-dump-perl
+  libdatrie1 libdbus-1-3 libdconf1 libdevmapper1.02.1 libdrm-amdgpu1
+  libdrm-common libdrm-intel1 libdrm-nouveau2 libdrm-radeon1 libdrm2 libelf1
+  libencode-locale-perl libepoxy0 libfile-basedir-perl
+  libfile-desktopentry-perl libfile-listing-perl libfile-mimeinfo-perl
+  libfont-afm-perl libfontenc1 libfribidi0 libgdk-pixbuf-2.0-0
+  libgdk-pixbuf2.0-bin libgdk-pixbuf2.0-common libgirepository-1.0-1 libgl1
+  libgl1-amber-dri libgl1-mesa-dri libglapi-mesa libglib2.0-0 libglib2.0-data
+  libglvnd0 libglx-mesa0 libglx0 libgraphite2-3 libgtk-3-0 libgtk-3-bin
+  libgtk-3-common libgtkd-3-0 libharfbuzz0b libhtml-form-perl
+  libhtml-format-perl libhtml-parser-perl libhtml-tagset-perl
+  libhtml-tree-perl libhttp-cookies-perl libhttp-daemon-perl libhttp-date-perl
+  libhttp-message-perl libhttp-negotiate-perl libice6 libicu70 libio-html-perl
+  libio-socket-ssl-perl libio-stringy-perl libip4tc2 libipc-system-simple-perl
+  libjs-events libjs-highlight.js libjs-inherits libjs-is-typedarray libjs-psl
+  libjs-source-map libjs-sprintf-js libjs-typedarray-to-buffer libjson-c5
+  libkmod2 liblcms2-2 libllvm11 libllvm15 liblwp-mediatypes-perl
+  liblwp-protocol-https-perl libmailtools-perl libnet-dbus-perl
+  libnet-http-perl libnet-smtp-ssl-perl libnet-ssleay-perl libnode72
+  libnotify-bin libnotify4 libnss-systemd libpam-systemd libpango-1.0-0
+  libpangocairo-1.0-0 libpangoft2-1.0-0 libpciaccess0 libphobos2-ldc-shared98
+  libpixman-1-0 librsvg2-2 librsvg2-common libsensors-config libsensors5
+  libsm6 libssl-dev libtext-iconv-perl libthai-data libthai0
+  libtie-ixhash-perl libtimedate-perl libtry-tiny-perl libunwind8 liburi-perl
+  libuv1 libuv1-dev libvte-2.91-0 libvte-2.91-common libvted-3-0
+  libwayland-client0 libwayland-cursor0 libwayland-egl1 libwww-perl
+  libwww-robotrules-perl libx11-protocol-perl libx11-xcb1 libxaw7
+  libxcb-dri2-0 libxcb-dri3-0 libxcb-glx0 libxcb-present0 libxcb-randr0
+  libxcb-render0 libxcb-shape0 libxcb-shm0 libxcb-sync1 libxcb-xfixes0
+  libxcomposite1 libxcursor1 libxdamage1 libxfixes3 libxft2 libxi6
+  libxinerama1 libxkbcommon0 libxkbfile1 libxml-parser-perl libxml-twig-perl
+  libxml-xpathengine-perl libxml2 libxmu6 libxrandr2 libxrender1 libxshmfence1
+  libxt6 libxtst6 libxv1 libxxf86dga1 libxxf86vm1 networkd-dispatcher
+  node-abab node-abbrev node-agent-base node-ansi-regex node-ansi-styles
+  node-ansistyles node-aproba node-archy node-are-we-there-yet node-argparse
+  node-arrify node-asap node-asynckit node-balanced-match node-brace-expansion
+  node-builtins node-chalk node-chownr node-clean-yaml-object node-cli-table
+  node-clone node-color-convert node-color-name node-colors node-columnify
+  node-combined-stream node-commander node-console-control-strings
+  node-core-util-is node-cssom node-cssstyle node-debug
+  node-decompress-response node-defaults node-delayed-stream node-delegates
+  node-depd node-diff node-encoding node-end-of-stream node-err-code
+  node-escape-string-regexp node-events node-fancy-log node-foreground-child
+  node-fs-write-stream-atomic node-fs.realpath node-function-bind node-gauge
+  node-get-stream node-glob node-got node-graceful-fs node-growl node-has-flag
+  node-has-unicode node-hosted-git-info node-https-proxy-agent node-iconv-lite
+  node-iferr node-imurmurhash node-indent-string node-inflight node-inherits
+  node-ini node-ip node-ip-regex node-is-buffer node-is-plain-obj
+  node-is-typedarray node-isarray node-isexe node-json-buffer
+  node-json-parse-better-errors node-jsonparse node-kind-of node-lcov-parse
+  node-lodash-packages node-log-driver node-lowercase-keys node-lru-cache
+  node-mimic-response node-minimatch node-minimist node-minipass node-ms
+  node-mute-stream node-negotiator node-normalize-package-data
+  node-npm-bundled node-npm-package-arg node-npmlog node-object-assign
+  node-once node-osenv node-p-cancelable node-p-map node-path-is-absolute
+  node-process-nextick-args node-promise-inflight node-promise-retry
+  node-promzard node-psl node-pump node-punycode node-quick-lru node-read
+  node-read-package-json node-readable-stream node-resolve node-retry
+  node-rimraf node-run-queue node-safe-buffer node-semver node-set-blocking
+  node-signal-exit node-slash node-slice-ansi node-source-map
+  node-source-map-support node-spdx-correct node-spdx-exceptions
+  node-spdx-expression-parse node-spdx-license-ids node-sprintf-js node-ssri
+  node-stack-utils node-stealthy-require node-string-decoder node-string-width
+  node-strip-ansi node-supports-color node-text-table node-time-stamp
+  node-tmatch node-tough-cookie node-typedarray-to-buffer node-unique-filename
+  node-universalify node-util-deprecate node-validate-npm-package-license
+  node-validate-npm-package-name node-wcwidth.js node-webidl-conversions
+  node-whatwg-fetch node-wide-align node-wrappy node-write-file-atomic
+  node-yallist perl-openssl-defaults python3-dbus python3-gi session-migration
+  shared-mime-info systemd systemd-sysv systemd-timesyncd tilix tilix-common
+  ubuntu-mono x11-common x11-utils x11-xserver-utils xdg-user-dirs xdg-utils
+  xkb-data
+Use 'apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 9 not upgraded.
+downloading uv 0.9.7 x86_64-unknown-linux-gnu
+no checksums to verify
+installing to /root/.local/bin
+  uv
+  uvx
+everything's installed!
+
+To add $HOME/.local/bin to your PATH, either restart your shell or run:
+
+    source $HOME/.local/bin/env (sh, bash, zsh)
+    source $HOME/.local/bin/env.fish (fish)
+Using Python 3.10.12 environment at: /usr
+Resolved 26 packages in 56ms
+Prepared 1 package in 5ms
+Installed 1 package in 1ms
+ + pytest-json-ctrf==0.3.6
+Downloading pygments (1.2MiB)
+ Downloading pygments
+Installed 26 packages in 51ms
+============================= test session starts ==============================
+platform linux -- Python 3.10.12, pytest-8.4.1, pluggy-1.6.0
+rootdir: /tests
+plugins: json-ctrf-0.3.5, anyio-4.13.0
+collected 1 item
+
+../tests/test_final_state.py F                                           [100%]
+
+=================================== FAILURES ===================================
+______________________ test_snapshot_exists_and_restores _______________________
+
+    def test_snapshot_exists_and_restores():
+        output_path = "/workspace/output.txt"
+        assert os.path.exists(output_path), f"{output_path} not found"
+    
+        with open(output_path, "r") as f:
+            snapshot_id = f.read().strip()
+    
+        assert len(snapshot_id) > 0, "Snapshot ID is empty"
+    
+        try:
+            # Create a new sandbox from the snapshot
+>           sandbox = Sandbox.create(template=snapshot_id)
+
+/tests/test_final_state.py:16: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+.cache/uv/archive-v0/Pff5CxI9VPbhyXvT1pcMv/lib/python3.10/site-packages/e2b/sandbox_sync/main.py:216: in create
+    sandbox = cls._create(
+.cache/uv/archive-v0/Pff5CxI9VPbhyXvT1pcMv/lib/python3.10/site-packages/e2b/sandbox_sync/main.py:903: in _create
+    response = SandboxApi._create_sandbox(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+cls = <class 'e2b.sandbox_sync.sandbox_api.SandboxApi'>
+template = 'ilq4hx79vhq1ae0fjfe9t', timeout = 300, auto_pause = False
+allow_internet_access = True, metadata = None, env_vars = None, secure = True
+mcp = None, network = None, lifecycle = None, volume_mounts = None, opts = {}
+config = <e2b.connection_config.ConnectionConfig object at 0x7d6556caadd0>
+should_auto_pause = False, auto_resume_enabled = None
+body = NewSandbox(template_id='ilq4hx79vhq1ae0fjfe9t', allow_internet_access=True, auto_pause=False, auto_resume=<e2b.api.cli...ecure=True, timeout=300, volume_mounts=<e2b.api.client.types.Unset object at 0x7d65581a2560>, additional_properties={})
+api_client = ApiClient(raise_on_unexpected_status=False, _base_url='https://api.e2b.app', _cookies={}, _headers={'lang': 'python', ...f0>, _async_client=None, token='e2b_1661abc48ce0870de4706ad3fdf78828ee38ed34', prefix='', auth_header_name='X-API-KEY')
+res = Response(status_code=<HTTPStatus.NOT_FOUND: 404>, content=b'{"code":404,"message":"template \'ilq4hx79vhq1ae0fjfe9t\' ...content-length': '67', 'via': '1.1 google', 'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'}), parsed=None)
+
+    @classmethod
+    def _create_sandbox(
+        cls,
+        template: str,
+        timeout: int,
+        auto_pause: Optional[bool],
+        allow_internet_access: bool,
+        metadata: Optional[Dict[str, str]],
+        env_vars: Optional[Dict[str, str]],
+        secure: bool,
+        mcp: Optional[McpServer] = None,
+        network: Optional[SandboxNetworkOpts] = None,
+        lifecycle: Optional[SandboxLifecycle] = None,
+        volume_mounts: Optional[List[SandboxVolumeMountAPI]] = None,
+        **opts: Unpack[ApiParams],
+    ) -> SandboxCreateResponse:
+        config = ConnectionConfig(**opts)
+    
+        should_auto_pause = (
+            lifecycle["on_timeout"] == "pause" if lifecycle is not None else auto_pause
+        )
+        auto_resume_enabled = get_auto_resume_enabled(lifecycle)
+        body = NewSandbox(
+            template_id=template,
+            auto_pause=(should_auto_pause if should_auto_pause is not None else UNSET),
+            metadata=metadata or {},
+            timeout=timeout,
+            env_vars=env_vars or {},
+            mcp=cast(Any, mcp) or UNSET,
+            secure=secure,
+            allow_internet_access=allow_internet_access,
+            network=SandboxNetworkConfig(**network) if network else UNSET,
+            volume_mounts=volume_mounts if volume_mounts else UNSET,
+        )
+        if auto_resume_enabled is not None:
+            body.auto_resume = SandboxAutoResumeConfig(enabled=auto_resume_enabled)
+    
+        api_client = get_api_client(config)
+        res = post_sandboxes.sync_detailed(
+            body=body,
+            client=api_client,
+        )
+    
+        if res.status_code >= 300:
+>           raise handle_api_exception(res)
+E           e2b.exceptions.SandboxException: 404: template 'ilq4hx79vhq1ae0fjfe9t' not found
+
+.cache/uv/archive-v0/Pff5CxI9VPbhyXvT1pcMv/lib/python3.10/site-packages/e2b/sandbox_sync/sandbox_api.py:205: SandboxException
+
+During handling of the above exception, another exception occurred:
+
+    def test_snapshot_exists_and_restores():
+        output_path = "/workspace/output.txt"
+        assert os.path.exists(output_path), f"{output_path} not found"
+    
+        with open(output_path, "r") as f:
+            snapshot_id = f.read().strip()
+    
+        assert len(snapshot_id) > 0, "Snapshot ID is empty"
+    
+        try:
+            # Create a new sandbox from the snapshot
+            sandbox = Sandbox.create(template=snapshot_id)
+    
+            # Check if the file exists and has correct content
+            result = sandbox.commands.run("cat /home/user/checkpoint.txt")
+            assert result.exit_code == 0, f"File not found or unreadable: {result.stderr}"
+            assert result.stdout.strip() == "checkpoint 1", f"Unexpected content: {result.stdout}"
+    
+            # Clean up
+            sandbox.kill()
+        except Exception as e:
+>           pytest.fail(f"Failed to verify snapshot: {str(e)}")
+E           Failed: Failed to verify snapshot: 404: template 'ilq4hx79vhq1ae0fjfe9t' not found
+
+/tests/test_final_state.py:26: Failed
+------------------------------ Captured log call -------------------------------
+ERROR    e2b.api:__init__.py:158 Response 404
+=========================== short test summary info ============================
+FAILED ../tests/test_final_state.py::test_snapshot_exists_and_restores - Fail...
+============================== 1 failed in 0.91s ===============================

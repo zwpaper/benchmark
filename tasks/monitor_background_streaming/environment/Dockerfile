@@ -18,7 +18,7 @@ RUN mkdir -p /home/user && chmod 0755 /home/user
 
 WORKDIR /home/user
 
-RUN pip3 install --break-system-packages --ignore-installed e2b
+RUN pip3 install --break-system-packages --ignore-installed e2b e2b-code-interpreter
 
 LABEL Author="e2b-task-builder"
 LABEL Description="E2B background command streaming task environment"

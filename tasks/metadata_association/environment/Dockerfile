@@ -15,7 +15,7 @@ RUN apt-get update && apt-get install -y \
 RUN curl -fsSL https://getpochi.com/install.sh | bash
 
 # Install e2b SDK and pytest
-RUN pip3 install e2b pytest
+RUN pip3 install e2b e2b-code-interpreter pytest
 
 # Setup user directory
 RUN mkdir -p /home/user

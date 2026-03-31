@@ -1,0 +1,9 @@
+[37m2026-03-31 08:11:43.063[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37mnative:1[39m[0m[0m[1m[37m	Pochi[39m[22m[0m[0m	pochi v0.6.6
+[37m2026-03-31 08:11:43.143[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m/$bunfs/root/pochi:503168[39m[0m[0m[1m[37m	loadAgents[39m[22m[0m[0m	Loaded 5 custom agents (5 valid, 0 invalid)
+[37m2026-03-31 08:11:43.326[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m/$bunfs/root/pochi:503169[39m[0m[0m[1m[37m	loadSkills[39m[22m[0m[0m	Loaded 3 skills (3 valid, 0 invalid)
+[37m2026-03-31 08:11:43.340[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m/$bunfs/root/pochi:439412[39m[0m[0m[1m[37m	PochiVendor[39m[22m[0m[0m	JWT is expiring or missing, fetching a new one
+[37m2026-03-31 08:11:44.851[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m/$bunfs/root/pochi:415701[39m[0m[0m[1m[37m	MCPHub[39m[22m[0m[0m	MCP servers configuration changed via signal:
+[37m2026-03-31 08:11:44.851[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m/$bunfs/root/pochi:415813[39m[0m[0m[1m[37m	MCPHub[39m[22m[0m[0m	Build MCPHub Status
+[37m2026-03-31 08:11:44.964[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m/$bunfs/root/pochi:502594[39m[0m[0m[1m[37m	TaskRunner[39m[22m[0m[0m	Starting TaskRunner...
+[37m2026-03-31 08:11:45.039[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m/$bunfs/root/pochi:496599[39m[0m[0m[1m[37m	generateTaskTitle[39m[22m[0m[0m	Generating task title, old: null, new: # Run Background Commands and Monitor Streaming Output
+[37m2026-03-31 08:12:09.001[39m[0m[0m	[32m[1mDEBUG[22m[39m[0m[0m	[37m[39m[0m[0m[1m[37m	generateTaskTitle[39m[22m[0m[0m	Generating task title, old: # Run Background Commands and Monitor Streaming Output, new: Run background commands and monitor streaming output in E2B sandbox

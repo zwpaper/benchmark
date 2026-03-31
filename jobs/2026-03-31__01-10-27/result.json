@@ -1,0 +1,40 @@
+{
+    "id": "c6c92333-32c4-4334-869f-8a8c87584c6e",
+    "started_at": "2026-03-31T01:10:27.480244",
+    "finished_at": "2026-03-31T01:18:59.553285",
+    "n_total_trials": 10,
+    "stats": {
+        "n_trials": 10,
+        "n_errors": 0,
+        "evals": {
+            "pochi__glm-4.7__e2b-tasks": {
+                "n_trials": 10,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "mean": 0.8
+                    }
+                ],
+                "reward_stats": {
+                    "reward": {
+                        "1.0": [
+                            "python_env_setup_uv__xfhwktD",
+                            "metadata_association__Yi9LZEc",
+                            "manage_nginx_config__kZz5QQt",
+                            "sdk_basic_sandbox__ZuGziw3",
+                            "web_server_public_url__F4uePJW",
+                            "monitor_background_streaming__SN7H7qE",
+                            "security_command_capture__6j27uxy",
+                            "env_vars_security_check__yv9Wg3c"
+                        ],
+                        "0.0": [
+                            "create_restore_snapshot__fiycJ33",
+                            "multiple_code_contexts__QHhEUVm"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            }
+        }
+    }
+}

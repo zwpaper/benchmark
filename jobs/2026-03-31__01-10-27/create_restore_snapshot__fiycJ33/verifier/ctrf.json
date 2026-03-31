@@ -1,0 +1,32 @@
+{
+    "results": {
+        "tool": {
+            "name": "pytest",
+            "version": "8.4.1"
+        },
+        "summary": {
+            "tests": 1,
+            "passed": 0,
+            "failed": 1,
+            "skipped": 0,
+            "pending": 0,
+            "other": 0,
+            "start": 1774944922.7739117,
+            "stop": 1774944923.6850023
+        },
+        "tests": [
+            {
+                "name": "test_final_state.py::test_snapshot_exists_and_restores",
+                "status": "failed",
+                "raw_status": "call_failed",
+                "duration": 0.35689468076452613,
+                "start": 1774944923.2754927,
+                "stop": 1774944923.684818,
+                "retries": 0,
+                "file_path": "test_final_state.py",
+                "trace": "def test_snapshot_exists_and_restores():\n        output_path = \"/workspace/output.txt\"\n        assert os.path.exists(output_path), f\"{output_path} not found\"\n    \n        with open(output_path, \"r\") as f:\n            snapshot_id = f.read().strip()\n    \n        assert len(snapshot_id) > 0, \"Snapshot ID is empty\"\n    \n        try:\n            # Create a new sandbox from the snapshot\n>           sandbox = Sandbox.create(template=snapshot_id)\n\n/tests/test_final_state.py:16: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n.cache/uv/archive-v0/Pff5CxI9VPbhyXvT1pcMv/lib/python3.10/site-packages/e2b/sandbox_sync/main.py:216: in create\n    sandbox = cls._create(\n.cache/uv/archive-v0/Pff5CxI9VPbhyXvT1pcMv/lib/python3.10/site-packages/e2b/sandbox_sync/main.py:903: in _create\n    response = SandboxApi._create_sandbox(\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\ncls = <class 'e2b.sandbox_sync.sandbox_api.SandboxApi'>\ntemplate = 'ilq4hx79vhq1ae0fjfe9t', timeout = 300, auto_pause = False\nallow_internet_access = True, metadata = None, env_vars = None, secure = True\nmcp = None, network = None, lifecycle = None, volume_mounts = None, opts = {}\nconfig = <e2b.connection_config.ConnectionConfig object at 0x7d6556caadd0>\nshould_auto_pause = False, auto_resume_enabled = None\nbody = NewSandbox(template_id='ilq4hx79vhq1ae0fjfe9t', allow_internet_access=True, auto_pause=False, auto_resume=<e2b.api.cli...ecure=True, timeout=300, volume_mounts=<e2b.api.client.types.Unset object at 0x7d65581a2560>, additional_properties={})\napi_client = ApiClient(raise_on_unexpected_status=False, _base_url='https://api.e2b.app', _cookies={}, _headers={'lang': 'python', ...f0>, _async_client=None, token='e2b_1661abc48ce0870de4706ad3fdf78828ee38ed34', prefix='', auth_header_name='X-API-KEY')\nres = Response(status_code=<HTTPStatus.NOT_FOUND: 404>, content=b'{\"code\":404,\"message\":\"template \\'ilq4hx79vhq1ae0fjfe9t\\' ...content-length': '67', 'via': '1.1 google', 'alt-svc': 'h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000'}), parsed=None)\n\n    @classmethod\n    def _create_sandbox(\n        cls,\n        template: str,\n        timeout: int,\n        auto_pause: Optional[bool],\n        allow_internet_access: bool,\n        metadata: Optional[Dict[str, str]],\n        env_vars: Optional[Dict[str, str]],\n        secure: bool,\n        mcp: Optional[McpServer] = None,\n        network: Optional[SandboxNetworkOpts] = None,\n        lifecycle: Optional[SandboxLifecycle] = None,\n        volume_mounts: Optional[List[SandboxVolumeMountAPI]] = None,\n        **opts: Unpack[ApiParams],\n    ) -> SandboxCreateResponse:\n        config = ConnectionConfig(**opts)\n    \n        should_auto_pause = (\n            lifecycle[\"on_timeout\"] == \"pause\" if lifecycle is not None else auto_pause\n        )\n        auto_resume_enabled = get_auto_resume_enabled(lifecycle)\n        body = NewSandbox(\n            template_id=template,\n            auto_pause=(should_auto_pause if should_auto_pause is not None else UNSET),\n            metadata=metadata or {},\n            timeout=timeout,\n            env_vars=env_vars or {},\n            mcp=cast(Any, mcp) or UNSET,\n            secure=secure,\n            allow_internet_access=allow_internet_access,\n            network=SandboxNetworkConfig(**network) if network else UNSET,\n            volume_mounts=volume_mounts if volume_mounts else UNSET,\n        )\n        if auto_resume_enabled is not None:\n            body.auto_resume = SandboxAutoResumeConfig(enabled=auto_resume_enabled)\n    \n        api_client = get_api_client(config)\n        res = post_sandboxes.sync_detailed(\n            body=body,\n            client=api_client,\n        )\n    \n        if res.status_code >= 300:\n>           raise handle_api_exception(res)\nE           e2b.exceptions.SandboxException: 404: template 'ilq4hx79vhq1ae0fjfe9t' not found\n\n.cache/uv/archive-v0/Pff5CxI9VPbhyXvT1pcMv/lib/python3.10/site-packages/e2b/sandbox_sync/sandbox_api.py:205: SandboxException\n\nDuring handling of the above exception, another exception occurred:\n\n    def test_snapshot_exists_and_restores():\n        output_path = \"/workspace/output.txt\"\n        assert os.path.exists(output_path), f\"{output_path} not found\"\n    \n        with open(output_path, \"r\") as f:\n            snapshot_id = f.read().strip()\n    \n        assert len(snapshot_id) > 0, \"Snapshot ID is empty\"\n    \n        try:\n            # Create a new sandbox from the snapshot\n            sandbox = Sandbox.create(template=snapshot_id)\n    \n            # Check if the file exists and has correct content\n            result = sandbox.commands.run(\"cat /home/user/checkpoint.txt\")\n            assert result.exit_code == 0, f\"File not found or unreadable: {result.stderr}\"\n            assert result.stdout.strip() == \"checkpoint 1\", f\"Unexpected content: {result.stdout}\"\n    \n            # Clean up\n            sandbox.kill()\n        except Exception as e:\n>           pytest.fail(f\"Failed to verify snapshot: {str(e)}\")\nE           Failed: Failed to verify snapshot: 404: template 'ilq4hx79vhq1ae0fjfe9t' not found\n\n/tests/test_final_state.py:26: Failed",
+                "message": "The test failed in the call phase due to an exception"
+            }
+        ]
+    }
+}

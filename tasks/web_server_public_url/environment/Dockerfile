@@ -20,7 +20,7 @@ WORKDIR /home/user
 
 RUN python3 -m venv /opt/venv
 ENV PATH="/opt/venv/bin:$PATH"
-RUN pip install e2b
+RUN pip install e2b e2b-code-interpreter
 
 LABEL Author="e2b-task-builder"
 LABEL Description="E2B task environment to spin up a web server and verify public URL."

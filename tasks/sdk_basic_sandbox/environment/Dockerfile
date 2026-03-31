@@ -17,5 +17,7 @@ RUN npm install -g @e2b/cli
 
 RUN curl -fsSL https://getpochi.com/install.sh | bash
 
+RUN pip3 install e2b e2b-code-interpreter --break-system-packages --ignore-installed
+
 RUN useradd -m -s /bin/bash user
 WORKDIR /home/user

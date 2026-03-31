@@ -15,7 +15,7 @@ RUN curl -fsSL https://getpochi.com/install.sh | bash
 ENV PATH="/root/.pochi/bin:$PATH"
 
 # Install E2B Python SDK for the agent to use
-RUN pip install e2b pytest --ignore-installed --break-system-packages
+RUN pip install e2b e2b-code-interpreter pytest --ignore-installed --break-system-packages
 
 RUN mkdir -p /home/user && chmod 0755 /home/user
 

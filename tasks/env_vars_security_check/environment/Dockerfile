@@ -21,7 +21,7 @@ WORKDIR /home/user
 # Install E2B Python SDK for the agent to use
 RUN python3 -m venv /opt/venv
 ENV PATH="/opt/venv/bin:$PATH"
-RUN pip3 install e2b pytest
+RUN pip3 install e2b e2b-code-interpreter pytest
 
 LABEL Author="e2b-task-builder"
 LABEL Description="E2B task environment for configuring sandbox environment variables."

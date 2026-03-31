@@ -1,0 +1,56 @@
+{
+    "results": {
+        "tool": {
+            "name": "pytest",
+            "version": "8.4.1"
+        },
+        "summary": {
+            "tests": 4,
+            "passed": 4,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0,
+            "other": 0,
+            "start": 1774944836.0389485,
+            "stop": 1774944837.8370755
+        },
+        "tests": [
+            {
+                "name": "test_final_state.py::test_task_info_file_exists",
+                "status": "passed",
+                "duration": 0.0002953615039587021,
+                "start": 1774944836.0459158,
+                "stop": 1774944836.0463493,
+                "retries": 0,
+                "file_path": "test_final_state.py"
+            },
+            {
+                "name": "test_final_state.py::test_venv_directory_exists",
+                "status": "passed",
+                "duration": 0.48130943393334746,
+                "start": 1774944836.046473,
+                "stop": 1774944836.5279765,
+                "retries": 0,
+                "file_path": "test_final_state.py"
+            },
+            {
+                "name": "test_final_state.py::test_pandas_installed_in_venv",
+                "status": "passed",
+                "duration": 0.827213641256094,
+                "start": 1774944836.5281677,
+                "stop": 1774944837.3555627,
+                "retries": 0,
+                "file_path": "test_final_state.py"
+            },
+            {
+                "name": "test_final_state.py::test_pandas_version_file",
+                "status": "passed",
+                "duration": 0.48085805447772145,
+                "start": 1774944837.35576,
+                "stop": 1774944837.8368444,
+                "retries": 0,
+                "file_path": "test_final_state.py"
+            }
+        ]
+    }
+}

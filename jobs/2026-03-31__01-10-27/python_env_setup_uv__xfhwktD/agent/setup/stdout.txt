@@ -1,0 +1,120 @@
+Get:1 http://archive.ubuntu.com/ubuntu noble InRelease [256 kB]
+Get:2 https://deb.nodesource.com/node_20.x nodistro InRelease [12.1 kB]
+Get:3 http://archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
+Get:4 http://archive.ubuntu.com/ubuntu noble-backports InRelease [126 kB]
+Get:5 https://deb.nodesource.com/node_20.x nodistro/main amd64 Packages [14.3 kB]
+Get:6 http://security.ubuntu.com/ubuntu noble-security InRelease [126 kB]
+Get:7 http://archive.ubuntu.com/ubuntu noble/multiverse amd64 Packages [331 kB]
+Get:8 http://archive.ubuntu.com/ubuntu noble/restricted amd64 Packages [117 kB]
+Get:9 http://archive.ubuntu.com/ubuntu noble/universe amd64 Packages [19.3 MB]
+Get:10 http://archive.ubuntu.com/ubuntu noble/main amd64 Packages [1808 kB]
+Get:11 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [2334 kB]
+Get:12 http://archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Packages [38.1 kB]
+Get:13 http://archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Packages [3601 kB]
+Get:14 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages [2155 kB]
+Get:15 http://archive.ubuntu.com/ubuntu noble-backports/universe amd64 Packages [36.1 kB]
+Get:16 http://archive.ubuntu.com/ubuntu noble-backports/main amd64 Packages [49.5 kB]
+Get:17 http://archive.ubuntu.com/ubuntu noble-backports/multiverse amd64 Packages [695 B]
+Get:18 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 Packages [34.8 kB]
+Get:19 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Packages [3429 kB]
+Get:20 http://security.ubuntu.com/ubuntu noble-security/main amd64 Packages [1954 kB]
+Get:21 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Packages [1504 kB]
+Fetched 37.4 MB in 2s (19.8 MB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+curl is already the newest version (8.5.0-2ubuntu10.8).
+ripgrep is already the newest version (14.1.0-1).
+git is already the newest version (1:2.43.0-1ubuntu7.3).
+0 upgraded, 0 newly installed, 0 to remove and 10 not upgraded.
+downloading pochi version: v0.6.6
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Package 'libnode-dev' is not installed, so not removed
+0 upgraded, 0 newly installed, 0 to remove and 10 not upgraded.
+[38;5;79m2026-03-31 08:11:31 - Installing pre-requisites[0m
+Hit:1 http://archive.ubuntu.com/ubuntu noble InRelease
+Hit:2 http://archive.ubuntu.com/ubuntu noble-updates InRelease
+Hit:3 http://archive.ubuntu.com/ubuntu noble-backports InRelease
+Hit:4 https://deb.nodesource.com/node_20.x nodistro InRelease
+Hit:5 http://security.ubuntu.com/ubuntu noble-security InRelease
+Reading package lists...
+Building dependency tree...
+Reading state information...
+10 packages can be upgraded. Run 'apt list --upgradable' to see them.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+apt-transport-https is already the newest version (2.8.3).
+ca-certificates is already the newest version (20240203).
+curl is already the newest version (8.5.0-2ubuntu10.8).
+gnupg is already the newest version (2.4.4-2ubuntu17.4).
+0 upgraded, 0 newly installed, 0 to remove and 10 not upgraded.
+Hit:1 https://deb.nodesource.com/node_20.x nodistro InRelease
+Hit:2 http://archive.ubuntu.com/ubuntu noble InRelease
+Hit:3 http://security.ubuntu.com/ubuntu noble-security InRelease
+Hit:4 http://archive.ubuntu.com/ubuntu noble-updates InRelease
+Hit:5 http://archive.ubuntu.com/ubuntu noble-backports InRelease
+Reading package lists...
+Building dependency tree...
+Reading state information...
+10 packages can be upgraded. Run 'apt list --upgradable' to see them.
+[1;34m2026-03-31 08:11:35 - Repository configured successfully.[0m
+[38;5;79m2026-03-31 08:11:35 - To install Node.js, run: apt install nodejs -y[0m
+[38;5;79m2026-03-31 08:11:35 - You can use N|solid Runtime as a node.js alternative[0m
+[1;32m2026-03-31 08:11:35 - To install N|solid Runtime, run: apt install nsolid -y 
+[0m
+Reading package lists...
+Building dependency tree...
+Reading state information...
+nodejs is already the newest version (20.20.2-1nodesource1).
+0 upgraded, 0 newly installed, 0 to remove and 10 not upgraded.
+
+[38;5;250m███████╗██╗  ██╗██╗██╗     ██╗     ███████╗[0m
+[38;5;248m██╔════╝██║ ██╔╝██║██║     ██║     ██╔════╝[0m
+[38;5;245m███████╗█████╔╝ ██║██║     ██║     ███████╗[0m
+[38;5;243m╚════██║██╔═██╗ ██║██║     ██║     ╚════██║[0m
+[38;5;240m███████║██║  ██╗██║███████╗███████╗███████║[0m
+[38;5;238m╚══════╝╚═╝  ╚═╝╚═╝╚══════╝╚══════╝╚══════╝[0m
+
+┌   skills 
+│
+│  Tip: use the --yes (-y) and --global (-g) flags to install without prompts.
+[?25l│
+◇  Source: https://smithery.ai/skills/padak/e2b-sandbox
+[?25h[?25l│
+◒  Discovering skills from well-known endpoint[999D[J◐  Discovering skills from well-known endpoint[999D[J◓  Discovering skills from well-known endpoint[999D[J◑  Discovering skills from well-known endpoint[999D[J◒  Discovering skills from well-known endpoint[999D[J◇  Found 1 skill
+[?25h│
+●  Skill: e2b-sandbox
+│
+│  Execute AI-generated code in secure isolated E2B cloud sandboxes with advanced monitoring, MCP gateway integration (200+ tools), and multi-language support. Use for running Python/JavaScript/TypeScript/Bash code, managing sandbox lifecycle (create, pause, resume, kill, list, connect), monitoring metrics (CPU, memory, disk), handling lifecycle events, uploading/downloading files, streaming command output, environment variable management, and integrating LLMs with code execution capabilities.
+│
+│    Files: SKILL.md, README.md, docs/advanced-sandbox.md, docs/code-interpreting.md, docs/custom-templates.md, docs/filesystem.md, docs/mcp-gateway.md, docs/monitoring-and-events.md, docs/persistence.md, docs/quickstart.md, docs/sandbox-lifecycle.md
+│
+●  Skill: e2b-sandbox
+
+│
+◇  Installation Summary ─────────╮
+│                                │
+│  ./.agents/skills/e2b-sandbox  │
+│    copy → Pochi                │
+│    files: 11                   │
+│                                │
+├────────────────────────────────╯
+[?25l│
+[999D[J◇  Installation complete
+[?25h
+│
+◇  Installed 1 skill ───────────────╮
+│                                   │
+│  ✓ e2b-sandbox (copied)           │
+│    → ./.pochi/skills/e2b-sandbox  │
+│                                   │
+├───────────────────────────────────╯
+
+│
+└  Done!  Review skills before use; they run with full agent permissions.
+
+0.6.6

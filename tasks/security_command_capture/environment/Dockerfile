@@ -18,7 +18,7 @@ RUN mkdir -p /home/user && chmod 0755 /home/user
 
 WORKDIR /home/user
 
-RUN pip3 install e2b --break-system-packages --ignore-installed packaging
+RUN pip3 install e2b e2b-code-interpreter --break-system-packages --ignore-installed packaging
 
 LABEL Author="e2b-task-builder"
 LABEL Description="E2B task environment for testing sandbox command execution and stdout/stderr capture."

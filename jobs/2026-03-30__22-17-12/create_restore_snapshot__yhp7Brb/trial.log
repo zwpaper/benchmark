@@ -1,3 +1,0 @@
-Selected strategy: _DaytonaDirect
-Building environment from /Users/warrenlow/Documents/projects/pochi-harbor/e2b-tasks/create_restore_snapshot/environment/Dockerfile
-Trial create_restore_snapshot__yhp7Brb failed: Agent setup failed with exit code 100. See logs in jobs/2026-03-30__22-17-12/create_restore_snapshot__yhp7Brb/agent/setup
